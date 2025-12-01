@@ -54,7 +54,11 @@ export default function SignOut({ mode = 'icon' }: TSignout) {
           <ListItemText primary="Sign out" />
         </ListItemButton>
 
-        <ConfirmDialog open={open} onCancel={triggerClose} onConfirm={handleConfirm} />
+        <ConfirmDialog
+          open={open}
+          onCancel={triggerClose}
+          onConfirm={handleConfirm}
+        />
       </>
     );
   }
@@ -70,7 +74,11 @@ export default function SignOut({ mode = 'icon' }: TSignout) {
           Sign out
         </Button>
 
-        <ConfirmDialog open={open} onCancel={triggerClose} onConfirm={handleConfirm} />
+        <ConfirmDialog
+          open={open}
+          onCancel={triggerClose}
+          onConfirm={handleConfirm}
+        />
       </>
     );
   }
@@ -81,7 +89,11 @@ export default function SignOut({ mode = 'icon' }: TSignout) {
         <Icon icon="signout" />
       </IconButton>
 
-      <ConfirmDialog open={open} onCancel={triggerClose} onConfirm={handleConfirm} />
+      <ConfirmDialog
+        open={open}
+        onCancel={triggerClose}
+        onConfirm={handleConfirm}
+      />
     </>
   );
 }
@@ -111,7 +123,11 @@ function ConfirmDialog({
 
       <DialogActions>
         <Button onClick={onCancel}>Cancel</Button>
-        <Button onClick={onConfirm} color="error" startIcon={<Icon icon="signout" />}>
+        <Button
+          onClick={onConfirm}
+          color="error"
+          startIcon={<Icon icon="signout" />}
+        >
           Sign out
         </Button>
       </DialogActions>

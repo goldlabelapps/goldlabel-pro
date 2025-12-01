@@ -1,7 +1,6 @@
-// /Users/goldlabel/GitHub/core/gl-core/cartridges/DesignSystem/components/PushButton.tsx
 'use client';
 import * as React from 'react';
-import { IconButton, Tooltip, Avatar } from '@mui/material';
+import { IconButton, Tooltip, Avatar, Badge } from '@mui/material';
 import { useDispatch, Icon } from '../../../../gl-core';
 import { setPaywallKey, useUser, usePaywall } from '../../Paywall';
 
@@ -15,9 +14,22 @@ export default function PushButton() {
     dispatch(setPaywallKey('userDialog', !userDialog));
   };
 
+  const provider = user?.providerData?.[0] ?? null;
+
+  const providerIconMap: Record<string, string> = {
+    'github.com': 'github',
+    'google.com': 'google',
+    'twitter.com': 'twitter',
+  };
+
+  const providerIcon =
+    provider && providerIconMap[provider.providerId]
+      ? providerIconMap[provider.providerId]
+      : null;
+
   const photo =
     user?.photoURL ||
-    user?.providerData?.[0]?.photoURL ||
+    provider?.photoURL ||
     null;
 
   const tooltipTitle = user?.displayName || null;
@@ -32,20 +44,28 @@ export default function PushButton() {
           boxShadow: 0,
           position: 'fixed',
           bottom: 8,
-          right: 8,
+          right: 16,
           p: 0,
           width: 40,
           height: 40,
         }}
       >
-        {photo ? (
-          <Avatar
-            src={photo}
-            sx={{ width: 40, height: 40 }}
-          />
-        ) : (
-          <Icon icon="paywall" />
-        )}
+        <Badge
+          badgeContent={
+            providerIcon ? (
+              <Icon icon={providerIcon as any} color="primary" />
+            ) : null
+          }
+        >
+          {photo ? (
+            <Avatar
+              src={photo}
+              sx={{ width: 40, height: 40 }}
+            />
+          ) : (
+            <Icon icon="paywall" />
+          )}
+        </Badge>
       </IconButton>
     </Tooltip>
   );
