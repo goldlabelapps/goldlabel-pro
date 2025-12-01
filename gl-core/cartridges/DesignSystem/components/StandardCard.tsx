@@ -57,7 +57,7 @@ export function StandardCard({
       onClick={() => dispatch(routeTo(slug, router))}
     >
       <CardHeader
-        avatar={<Icon icon={icon as any} color="primary" />}
+        avatar={<Icon icon={icon as any} color="secondary" />}
         title={
           <Typography
             variant="h6"
@@ -73,7 +73,6 @@ export function StandardCard({
         }
         action={
           <IconButton
-            color="primary"
             onClick={(e) => {
               e.stopPropagation();
               setExpanded(!expanded);

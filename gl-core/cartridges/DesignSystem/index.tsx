@@ -7,6 +7,9 @@ import PushButton from './components/PushButton';
 import FieldUpload from './components/FieldUpload';
 import Icon from './components/Icon';
 import AlertAd from './components/AlertAd';
+
+import Tags from './components/Tags';
+
 import MenuSystem from './components/MenuSystem';
 import SystemDialog from './components/SystemDialog';
 import Feedback from './components/Feedback';
@@ -26,6 +29,7 @@ export {
   NewContent,
   PushButton,
   AlertAd,
+  Tags,
   MenuSystem,
   LoadingOverlay,
   FieldUpload,

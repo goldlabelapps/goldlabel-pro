@@ -13,10 +13,7 @@ import {
   AccordionDetails,
 } from '@mui/material';
 import { useDispatch, useIsMobile, Icon } from '../../../../gl-core';
-import { 
-  useDesignSystem,
-  MenuSystem,
-} from '../../DesignSystem';
+import { useDesignSystem, MenuSystem } from '../../DesignSystem';
 import {
   useUser,
   setPaywallKey,
@@ -52,15 +49,12 @@ export default function UserDialog() {
         <DialogContent>
           <Grid container spacing={1} sx={{ mb: 0 }}>
             <Grid size={{ xs: 12, md: 6 }}>
-              <Box sx={{mt: 3}}>
+              <Box sx={{ mt: 3 }}>
                 <MenuSystem />
               </Box>
               <User />
             </Grid>
-            <Grid size={{ xs: 12, md: 6 }}>
-              
-              {user ? null : <SignIn />}
-            </Grid>
+            <Grid size={{ xs: 12, md: 6 }}>{user ? null : <SignIn />}</Grid>
           </Grid>
         </DialogContent>
 
@@ -70,16 +64,16 @@ export default function UserDialog() {
           </IconButton>
         </DialogActions>
         {user && isUberUser && (
-            <Accordion sx={{ mx: 2, background: 0, boxShadow: 0 }}>
-              <AccordionSummary expandIcon={<Icon icon="up" color="primary" />}>
-                User Data
-              </AccordionSummary>
-              <AccordionDetails>
-                <pre style={{ fontSize: '10px', margin: 0 }}>
-                  user: {JSON.stringify(user, null, 2)}
-                </pre>
-              </AccordionDetails>
-            </Accordion>
+          <Accordion sx={{ mx: 2, background: 0, boxShadow: 0 }}>
+            <AccordionSummary expandIcon={<Icon icon="up" color="primary" />}>
+              User Data
+            </AccordionSummary>
+            <AccordionDetails>
+              <pre style={{ fontSize: '10px', margin: 0 }}>
+                user: {JSON.stringify(user, null, 2)}
+              </pre>
+            </AccordionDetails>
+          </Accordion>
         )}
       </Dialog>
     </>

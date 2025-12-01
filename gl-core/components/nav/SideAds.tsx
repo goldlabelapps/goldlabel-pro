@@ -47,7 +47,7 @@ export default function SideAds() {
               }}
             >
               <ListItemIcon>
-                <Icon icon={item.icon as any} color="primary" />
+                <Icon icon={item.icon as any} color="secondary" />
               </ListItemIcon>
               {!isMobile && (
                 <ListItemText

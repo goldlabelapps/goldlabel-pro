@@ -6,7 +6,6 @@ slug: /balance/film/diamond-diving
 image: https://live.staticflickr.com/65535/54953886652_7754217501_b.jpg
 icon: film
 noImage: true
-newContent: true
 ---
 
 > Interview with Alex Diamond of Diamond Diving

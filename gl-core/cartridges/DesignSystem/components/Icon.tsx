@@ -161,6 +161,7 @@ import TypescriptIcon from '@mui/icons-material/DataObject';
 import BooksIcon from '@mui/icons-material/MenuBook';
 import FreeIcon from '@mui/icons-material/CurrencyExchange';
 import WritingIcon from '@mui/icons-material/BorderColor';
+import TagsIcon from '@mui/icons-material/LocalOffer';
 
 export type TIconShape = {
   icon:
@@ -345,6 +346,7 @@ export type TIconShape = {
     | 'plugins'
     | 'files'
     | 'expertise'
+    | 'tags'
     | 'bouncer';
   color?: any;
 };
@@ -355,6 +357,10 @@ export default function Icon({ icon, color }: TIconShape) {
   switch (icon) {
     case 'core':
       iconFragment = <CoreIcon color={color} />;
+      break;
+
+    case 'tags':
+      iconFragment = <TagsIcon color={color} />;
       break;
 
     case 'film':

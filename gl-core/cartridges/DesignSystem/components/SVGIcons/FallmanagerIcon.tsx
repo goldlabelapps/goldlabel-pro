@@ -4,7 +4,7 @@ import { useTheme, SvgIcon } from '@mui/material';
 export default function FallmanagerIcon(props: any) {
   let mainColor = 'black';
   const theme = useTheme();
-  mainColor = theme.palette.primary.main;
+  mainColor = theme.palette.secondary.main;
 
   return (
     <SvgIcon {...props}>

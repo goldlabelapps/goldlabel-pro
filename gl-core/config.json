@@ -6,7 +6,7 @@
     "light": {
       "mode": "light",
       "primary": "#126A71",
-      "secondary": "#0B555B",
+      "secondary": "#B7DCE4",
       "background": "#FFF",
       "paper": "#FAFFFF",
       "border": "#FAFFFF",
@@ -15,7 +15,7 @@
     "dark": {
       "mode": "dark",
       "primary": "#1db2d3",
-      "secondary": "#3e8df7",
+      "secondary": "#047C97",
       "background": "#001321",
       "paper": "#0A2D47",
       "text": "#FFFFFF",
