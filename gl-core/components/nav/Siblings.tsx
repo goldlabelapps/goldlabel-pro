@@ -147,7 +147,7 @@ export default function Siblings() {
           }}
         >
           <ListItemIcon>
-            <Icon icon={(node.icon as any) || 'up'} color="primary" />
+            <Icon icon={(node.icon as any) || 'up'} color="secondary" />
           </ListItemIcon>
           {!isMobile && (
             <ListItemText
@@ -170,7 +170,7 @@ export default function Siblings() {
           }}
         >
           <ListItemIcon>
-            <Icon icon={(parent.icon as any) || 'up'} color="primary" />
+            <Icon icon={(parent.icon as any) || 'up'} color="secondary" />
           </ListItemIcon>
           {!isMobile && (
             <ListItemText
@@ -199,7 +199,7 @@ export default function Siblings() {
                 }}
               >
                 <ListItemIcon>
-                  <Icon icon={item.icon as any} color="primary" />
+                  <Icon icon={item.icon as any} color="secondary" />
                 </ListItemIcon>
                 {!isMobile && (
                   <ListItemText

@@ -7,4 +7,5 @@ icon: lingua
 image: https://live.staticflickr.com/65535/54954703662_b19cdf7896_b.jpg
 tags: expertise, fields, work
 paywall: true
+newContent: true
 ---

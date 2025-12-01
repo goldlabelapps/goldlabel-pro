@@ -6,7 +6,6 @@ slug: /work/experience/hertwig-auer
 icon: case
 image: https://live.staticflickr.com/65535/54950218066_17198c9793_b.jpg
 tags: expertise, legal, germany, law, react, nextjs, microsoft
-newContent: false
 ---
 
 > Easy Legal Letter Assistant, 2025

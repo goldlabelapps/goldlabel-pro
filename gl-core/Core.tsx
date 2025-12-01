@@ -35,6 +35,7 @@ import {
   useDesignSystem,
   NewContent,
   toggleLoading,
+  Tags,
 } from './cartridges/DesignSystem';
 import { useNewContent, fetchGlobalNav } from './cartridges/Uberedux';
 
@@ -108,7 +109,7 @@ export default function Core({ frontmatter, body = null }: TCore) {
                 {/* Title + Icon */}
                 <Box sx={{ display: 'flex' }}>
                   <Box sx={{ mr: 2, mt: 1.5 }}>
-                    <Icon icon={icon as any} color="primary" />
+                    <Icon icon={icon as any} />
                   </Box>
 
                   <Typography
@@ -124,13 +125,29 @@ export default function Core({ frontmatter, body = null }: TCore) {
                   </Typography>
                 </Box>
 
+                <Box sx={{}}>
+                  <Typography
+                    variant="h2"
+                    gutterBottom
+                    sx={{ fontSize: { xs: '1.1rem', md: '1.25rem' } }}
+                  >
+                    {description}
+                  </Typography>
+                </Box>
+
+                {title !== 'Home' && pathname !== '/' && <PageBreadcrumb />}
+
                 {/* Description + Share + NEW TOGGLE */}
                 <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                  <Box sx={{ ml: -1 }}>
+                    <Tags />
+                  </Box>
+
                   {newContent && newContent.length > 0 && (
-                    <Box sx={{ ml: -1 }}>
+                    <Box>
                       <Tooltip title="What's New" arrow>
                         <IconButton
-                          color="primary"
+                          color="secondary"
                           onClick={() => setShowWhatsNew((v) => !v)}
                         >
                           <Icon icon={'news'} />
@@ -143,18 +160,7 @@ export default function Core({ frontmatter, body = null }: TCore) {
                     <SharePopup />
                   </Box>
 
-                  <Box sx={{ mt: 1 }}>
-                    <Typography
-                      variant="h2"
-                      gutterBottom
-                      sx={{ fontSize: { xs: '1.1rem', md: '1.25rem' } }}
-                    >
-                      {description}
-                    </Typography>
-                  </Box>
                 </Box>
-
-                {title !== 'Home' && pathname !== '/' && <PageBreadcrumb />}
 
                 {/* WHAT'S NEW — COLLAPSE */}
                 <Box sx={{ mb: 1 }}>

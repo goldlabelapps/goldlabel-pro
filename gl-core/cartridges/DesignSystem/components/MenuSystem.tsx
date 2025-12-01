@@ -56,7 +56,6 @@ export default function MenuSystem() {
         </ListItemButton>
 
         {user && <SignOut mode="listitem" />}
-
       </List>
     </>
   );

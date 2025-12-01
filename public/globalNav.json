@@ -117,8 +117,7 @@
               "JavaScript",
               "packages"
             ],
-            "excerpt": "NPM is the central registry for JavaScript packages, providing developers with a vast ecosystem of reusable modules, versio\n\n[LinkOut title=\"GitHub goldlabelapps/npmcore\" icon=\"github\" url=\"https://gi",
-            "newContent": true
+            "excerpt": "NPM is the central registry for JavaScript packages, providing developers with a vast ecosystem of reusable modules, versio\n\n[LinkOut title=\"GitHub goldlabelapps/npmcore\" icon=\"github\" url=\"https://gi"
           },
           {
             "title": "Example App",
@@ -371,8 +370,7 @@
                   "JScript",
                   "ActionScript"
                 ],
-                "excerpt": "Initially dominant on the client side for the Web, ECMAScript now powers Node.js\n\nECMAScript is the formal language specification behind JavaScript, JScript, ActionScript, and similar scripting langua",
-                "newContent": true
+                "excerpt": "Initially dominant on the client side for the Web, ECMAScript now powers Node.js\n\nECMAScript is the formal language specification behind JavaScript, JScript, ActionScript, and similar scripting langua"
               },
               {
                 "title": "JavaScript",
@@ -444,8 +442,7 @@
                           "react native",
                           "hooks"
                         ],
-                        "excerpt": "Developed by Facebook for building crossplatform mobile applications\n\nIt allows developers to use JavaScript and React (a widely used frontend library) to create native apps for both iOS and Android. ",
-                        "newContent": true
+                        "excerpt": "Developed by Facebook for building crossplatform mobile applications\n\nIt allows developers to use JavaScript and React (a widely used frontend library) to create native apps for both iOS and Android. "
                       }
                     ],
                     "icon": "js",
@@ -822,8 +819,7 @@
                         "icon": "ai",
                         "image": "https://live.staticflickr.com/65535/54676004619_ac1207c621_c.jpg",
                         "type": "file",
-                        "excerpt": "Sending sensitive files to external platforms can breach professional secrecy, violate GDPR, and damage client trust\n\nAKI exists because firms need the power of AI without risking client confidentiali",
-                        "newContent": true
+                        "excerpt": "Sending sensitive files to external platforms can breach professional secrecy, violate GDPR, and damage client trust\n\nAKI exists because firms need the power of AI without risking client confidentiali"
                       }
                     ],
                     "icon": "ai",
@@ -1055,7 +1051,8 @@
               "fields",
               "work"
             ],
-            "excerpt": ""
+            "excerpt": "",
+            "newContent": true
           },
           {
             "title": "CV",
@@ -1569,8 +1566,7 @@
                 "icon": "film",
                 "image": "https://live.staticflickr.com/65535/54955011959_b1e67fcb04_b.jpg",
                 "type": "file",
-                "excerpt": "London, Summer 2004\n\n[YouTube src=\"https://youtu.be/lSRtbgt5ays\"]\n\nMade in the summer of 2004 when living in Deptford, London. I drove a bashed up Gold Beemer and had a shaved head. It helped to look ",
-                "newContent": true
+                "excerpt": "London, Summer 2004\n\n[YouTube src=\"https://youtu.be/lSRtbgt5ays\"]\n\nMade in the summer of 2004 when living in Deptford, London. I drove a bashed up Gold Beemer and had a shaved head. It helped to look "
               },
               {
                 "title": "A Very British Protest",
@@ -1633,8 +1629,7 @@
                 "icon": "film",
                 "image": "https://live.staticflickr.com/65535/54953886652_7754217501_b.jpg",
                 "type": "file",
-                "excerpt": "Interview with Alex Diamond of Diamond Diving\n\n[YouTube src=\"https://youtu.be/txD6kc8dVr8\"]\n\nAn interview with Alex Diamond of Diamond Diving. We join Alex on the easydive Antibes dive boat where on a",
-                "newContent": true
+                "excerpt": "Interview with Alex Diamond of Diamond Diving\n\n[YouTube src=\"https://youtu.be/txD6kc8dVr8\"]\n\nAn interview with Alex Diamond of Diamond Diving. We join Alex on the easydive Antibes dive boat where on a"
               },
               {
                 "title": "Lotsa Fish",

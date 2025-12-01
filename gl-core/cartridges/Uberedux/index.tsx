@@ -5,11 +5,11 @@ import { useDispatch } from './hooks/useDispatch';
 import { useKey } from './hooks/useKey';
 import { useVersionCheck } from './hooks/useVersionCheck';
 import { useNewContent } from './hooks/useNewContent';
+import { usePaywallContent } from './hooks/usePaywallContent';
 import { useBySlug } from './hooks/useBySlug';
 import { setUbereduxKey, resetUberedux } from './store';
 import { TRootState, TUbereduxDispatch } from './store';
-
-import {fetchGlobalNav} from './actions/fetchGlobalNav';
+import { fetchGlobalNav } from './actions/fetchGlobalNav';
 
 export {
   UbereduxProvider,
@@ -19,6 +19,7 @@ export {
   useDispatch,
   useVersionCheck,
   useNewContent,
+  usePaywallContent,
   useBySlug,
   setUbereduxKey,
   resetUberedux,

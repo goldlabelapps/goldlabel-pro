@@ -6,7 +6,6 @@ slug: /balance/film/sweet-comme-une-nut
 image: https://live.staticflickr.com/65535/54955011959_b1e67fcb04_b.jpg
 icon: film
 noImage: true
-newContent: true
 ---
 
 > London, Summer 2004

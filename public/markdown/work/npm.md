@@ -6,7 +6,6 @@ slug: /work/npm
 icon: js
 image: https://live.staticflickr.com/65535/54953590078_b40cbc83fb_b.jpg
 tags: NPM, JavaScript, packages
-newContent: true
 ---
 
 > NPM is the central registry for JavaScript packages, providing developers with a vast ecosystem of reusable modules, versio
