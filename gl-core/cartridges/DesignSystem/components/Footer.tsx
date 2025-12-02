@@ -34,16 +34,18 @@ export default function Footer({}: TFooter) {
               }}
             >
               <Grid container spacing={1}>
-                
                 <Grid
                   size={{
                     xs: 12,
                     sm: 6,
                   }}
                 >
-                  <Box sx={{
-                    mt: isMobile ? 2 : 0,
-                    textAlign: isMobile ? 'center' : 'left'}}>
+                  <Box
+                    sx={{
+                      mt: isMobile ? 2 : 0,
+                      textAlign: isMobile ? 'center' : 'left',
+                    }}
+                  >
                     <Search />
                   </Box>
                 </Grid>
@@ -52,19 +54,19 @@ export default function Footer({}: TFooter) {
                   size={{
                     xs: 12,
                     sm: 6,
-                  }}>
-                  <Box sx={{
-                    mt: 1,
-                    textAlign: isMobile ? 'center' : 'right'}}>
-                    <Typography 
-                      color='text.secondary'
-                      variant="caption">
-                      
-                      Goldlabel Apps Ltd</Typography>
-                    
+                  }}
+                >
+                  <Box
+                    sx={{
+                      mt: 1,
+                      textAlign: isMobile ? 'center' : 'right',
+                    }}
+                  >
+                    <Typography variant="caption">
+                      Goldlabel Apps Ltd
+                    </Typography>
                   </Box>
                 </Grid>
-
               </Grid>
             </Box>
           </Container>

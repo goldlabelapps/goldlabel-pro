@@ -26,11 +26,7 @@ import {
   SharePopup,
   Icon,
 } from '../gl-core';
-import { 
-  Paywall, 
-  SigninGate, 
-  useUser,
-} from './cartridges/Paywall';
+import { Paywall, SigninGate, useUser } from './cartridges/Paywall';
 import {
   DesignSystem,
   useDesignSystem,
@@ -40,7 +36,11 @@ import {
   Navigation,
   RenderMarkdown,
 } from './cartridges/DesignSystem';
-import { useNewContent, fetchGlobalNav, useSearch } from './cartridges/Uberedux';
+import {
+  useNewContent,
+  fetchGlobalNav,
+  useSearch,
+} from './cartridges/Uberedux';
 
 const config = configRaw as TConfig;
 
@@ -91,9 +91,8 @@ export default function Core({ frontmatter, body = null }: TCore) {
         <Paywall />
         <Container id="core" sx={{ mt: 2 }}>
           <Box sx={{ minHeight: '100vh' }}>
-            
-            <pre>search: {JSON.stringify(search, null, 2)}</pre>
-          
+            {/* <pre>search: {JSON.stringify(search, null, 2)}</pre> */}
+
             <Grid container spacing={isMobile ? 0 : 1}>
               {/* LEFT COLUMN */}
               <Grid size={{ xs: 1, md: 3 }}>

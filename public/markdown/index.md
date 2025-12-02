@@ -9,4 +9,4 @@ tags: JavaScript, Next Gen, Next.js, example app, Gen X, goldlabel, AI Prompt En
 noImage: true
 ---
 
-[PageGrid thumbnails="no" pages="/work, /life, /balance"]
+[PageGrid thumbnails="yes" pages="/work, /life, /balance"]
