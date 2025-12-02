@@ -1,9 +1,9 @@
-// /Users/goldlabel/GitHub/core/gl-core/components/nav/Siblings.tsx
+// /Users/goldlabel/GitHub/example-app/gl-core/cartridges/DesignSystem/components/Navigation.tsx
 'use client';
-
+import { NavItem } from '../types';
+import globalNav from '../../../../public/globalNav.json';
 import * as React from 'react';
 import { usePathname, useRouter } from 'next/navigation';
-import globalNav from '../../../public/globalNav.json';
 import {
   List,
   ListItemButton,
@@ -12,17 +12,8 @@ import {
   Box,
   Typography,
 } from '@mui/material';
-import { useIsMobile, useDispatch } from '../../../gl-core';
-import { Icon, setDesignSystemKey } from '../../cartridges/DesignSystem';
-
-type NavItem = {
-  title: string;
-  slug: string;
-  description?: string;
-  icon?: string;
-  order?: number;
-  children?: NavItem[];
-};
+import { useIsMobile, useDispatch } from '../../../../gl-core';
+import { Icon, setDesignSystemKey } from '../../../cartridges/DesignSystem';
 
 // --- helper functions ---
 function findNode(items: NavItem[], slug: string): NavItem | null {
@@ -60,7 +51,7 @@ function findParentContents(items: NavItem[], slug: string): NavItem[] | null {
 }
 
 // --- main component ---
-export default function Siblings() {
+export default function Navigation() {
   const dispatch = useDispatch();
   const pathname = usePathname();
   const router = useRouter();

@@ -16,7 +16,6 @@ import {
   useDispatch,
   setUbereduxKey,
   MightyButton,
-  Search,
 } from '../../../gl-core';
 import { Icon } from '../../cartridges/DesignSystem';
 
@@ -68,11 +67,6 @@ export default function Nav({}: TNav) {
             onClick={() => {
               closeModalNav();
               router.push('/');
-            }}
-          />
-          <Search
-            onTrigger={(e: any) => {
-              // console.log('onSearchTrigger', e);
             }}
           />
         </DialogContent>

@@ -1,4 +1,4 @@
-// /Users/goldlabel/GitHub/example-app/gl-core/components/layout/RenderMarkdown.tsx
+// /Users/goldlabel/GitHub/example-app/gl-core/cartridges/DesignSystem/components/RenderMarkdown.tsx
 'use client';
 import * as React from 'react';
 import ReactMarkdown from 'react-markdown';
@@ -19,7 +19,7 @@ import {
   ChildPages,
   PageGrid,
   LinkOut,
-} from '../../../gl-core';
+} from '../../../../gl-core';
 
 type TRenderMarkdown = {
   children: React.ReactNode;

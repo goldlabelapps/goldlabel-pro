@@ -13,6 +13,7 @@ import {
   Feedback,
   PushButton,
   LoadingOverlay,
+  Footer,
 } from '../DesignSystem';
 
 import { useDispatch, useSlice } from '../Uberedux';
@@ -44,6 +45,7 @@ export default function DesignSystem({
       <SystemDialog />
       {children}
       <PushButton />
+      <Footer />
     </ThemeProvider>
   );
 }
