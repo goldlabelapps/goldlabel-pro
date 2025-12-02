@@ -1,5 +1,8 @@
+// /Users/goldlabel/GitHub/example-app/gl-core/cartridges/DesignSystem/components/Search.tsx
 'use client';
-
+import { TSearch, TFlatItem } from '../types';
+import globalNav from '../../../../public/globalNav.json';
+import { useRouter } from 'next/navigation';
 import React, {
   useState,
   useMemo,
@@ -18,15 +21,8 @@ import {
   Paper,
   ClickAwayListener,
 } from '@mui/material';
-import { useDispatch, routeTo } from '../../../gl-core';
-import { Icon } from '../../cartridges/DesignSystem';
-import globalNav from '../../../public/globalNav.json';
-import { useRouter } from 'next/navigation';
-
-export type TSearch = {
-  onTrigger?: (value: any) => void;
-  defaultValue?: string;
-};
+import { useDispatch, routeTo } from '../../../../gl-core';
+import { Icon } from '../../../cartridges/DesignSystem';
 
 const SearchWrapper = styled(Box)(() => ({
   position: 'relative',
@@ -73,13 +69,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-type FlatItem = {
-  title: string;
-  slug: string;
-  description?: string;
-};
-
-function flattenNav(nav: any[], acc: FlatItem[] = []): FlatItem[] {
+function flattenNav(nav: any[], acc: TFlatItem[] = []): TFlatItem[] {
   for (const item of nav) {
     acc.push({
       title: item.title,

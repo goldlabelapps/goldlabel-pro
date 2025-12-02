@@ -12,6 +12,26 @@ export interface TDesignSystemState {
   [key: string]: any;
 }
 
+export type TFlatItem = {
+  title: string;
+  slug: string;
+  description?: string;
+};
+
+export type TSearch = {
+  onTrigger?: (value: any) => void;
+  defaultValue?: string;
+};
+
+export type NavItem = {
+  title: string;
+  slug: string;
+  description?: string;
+  icon?: string;
+  order?: number;
+  children?: NavItem[];
+};
+
 export interface IDesignSystem {
   theme?: TTheme;
   children: React.ReactNode;

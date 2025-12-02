@@ -1,3 +1,4 @@
+// /Users/goldlabel/GitHub/example-app/gl-core/cartridges/DesignSystem/components/Footer.tsx
 'use client';
 import React from 'react';
 import {
@@ -8,7 +9,10 @@ import {
   Grid,
   Typography,
 } from '@mui/material';
-import { useIsMobile } from '../../../gl-core';
+import { useIsMobile } from '../../../../gl-core';
+import {
+  Search,
+} from '../../DesignSystem';
 
 export type TFooter = {};
 
@@ -20,18 +24,14 @@ export default function Footer({}: TFooter) {
       <AppBar
         position="fixed"
         sx={{
-          background: 'white',
-          boxShadow: 0,
           top: 'auto',
           bottom: 0,
-          py: 2,
         }}
       >
         <Toolbar>
           <Container>
             <Box
               sx={{
-                border: '1px solid green',
                 flexGrow: 1,
               }}
             >
@@ -47,19 +47,16 @@ export default function Footer({}: TFooter) {
                   <Typography variant="body2">
                     321-323 High Road, Essex RM6 6AX
                   </Typography>
-                  <Typography variant="body2">
-                    UK Company No. 15460545
-                  </Typography>
                 </Grid>
 
-                {/* <Grid size={{
-                    "xs": 12,
-                    "sm": 6,
-                }}>
-                  <Typography variant="button">
-                    Connect
-                  </Typography>
-                </Grid> */}
+                <Grid
+                  size={{
+                    xs: 12,
+                    sm: 6,
+                  }}
+                >
+                  <Search />
+                </Grid>
               </Grid>
             </Box>
           </Container>

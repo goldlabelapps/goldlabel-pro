@@ -18,14 +18,11 @@ import {
   Tooltip,
 } from '@mui/material';
 import {
-  RenderMarkdown,
   PageBreadcrumb,
   useIsMobile,
   useVersionCheck,
   useDispatch,
-  Siblings,
   useSiblings,
-  SideAds,
   SharePopup,
   Icon,
 } from '../gl-core';
@@ -36,6 +33,8 @@ import {
   NewContent,
   toggleLoading,
   Tags,
+  Navigation,
+  RenderMarkdown,
 } from './cartridges/DesignSystem';
 import { useNewContent, fetchGlobalNav } from './cartridges/Uberedux';
 
@@ -96,11 +95,7 @@ export default function Core({ frontmatter, body = null }: TCore) {
                     mt: 0,
                   }}
                 >
-                  {Array.isArray(siblings) && siblings.length > 0 ? (
-                    <Siblings />
-                  ) : (
-                    <SideAds />
-                  )}
+                  <Navigation />
                 </Box>
               </Grid>
 
