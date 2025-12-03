@@ -16,3 +16,5 @@ noImage: true
 - Readable, extensible, Open Source
 
 [PageGrid thumbnails="no" pages="/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example-app"]
+
+[GitHub url="https://github.com/users/javascript-pro/projects/8" label="Kanban Board"]
