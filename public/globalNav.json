@@ -967,7 +967,7 @@
                       "nextjs",
                       "flickr"
                     ],
-                    "excerpt": "Effective when it is structured clearly, documented properly, and resilient under realworld load\n\n[LinkOut title=\"Goldlabel RESTful API\" icon=\"ai\" url=\"/api\"]\n\nREST has been the backbone of web commun",
+                    "excerpt": "REST has been the backbone of web communication for two decades\n\n[LinkOut title=\"Goldlabel RESTful API\" icon=\"ai\" url=\"/api\"]\n\nEffective when it is structured clearly, documented properly, and resilie",
                     "newContent": true
                   },
                   {
@@ -1146,7 +1146,7 @@
           "NextJS",
           "Headless CMS"
         ],
-        "excerpt": "Goldlabel builds and ships modern web apps for clients who need real results fast\n\n Small team. Big output\n Real deployments from Day One\n Readable, extensible, Open Source\n\n[PageGrid thumbnails=\"no\" "
+        "excerpt": "Goldlabel builds and ships modern web apps for clients who need real results fast\n\n[GitHub url=\"https://github.com/users/javascriptpro/projects/8\" label=\"Kanban Board\"]\n\n Small team. Big output\n Real "
       },
       {
         "title": "Life",
@@ -1539,8 +1539,7 @@
                   "panettone",
                   "baileys"
                 ],
-                "excerpt": "Ingredients\n\n 2 large egg yolks\n 50g caster sugar\n 250g mascarpone\n 120ml strong espresso, cooled\n 5 tbsp Baileys & Terry’s Chocolate Orange Irish Cream Liqueur\n 1 mini panettone (approx. 80–100g)\n Co",
-                "newContent": true
+                "excerpt": "Ingredients\n\n 2 large egg yolks\n 50g caster sugar\n 250g mascarpone\n 120ml strong espresso, cooled\n 5 tbsp Baileys & Terry’s Chocolate Orange Irish Cream Liqueur\n 1 mini panettone (approx. 80–100g)\n Co"
               },
               {
                 "title": "Banana Bread",
@@ -1986,6 +1985,6 @@
       "Headless CMS",
       "secure"
     ],
-    "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]\n\n[GitHub url=\"https://github.com/users/javascriptpro/projects/8\" label=\"Kanban Board\"]"
+    "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]"
   }
 ]
