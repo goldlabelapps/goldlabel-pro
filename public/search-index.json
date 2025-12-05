@@ -677,7 +677,7 @@
     "description": "How to get up and running",
     "image": "/png/3rdParty/github_og.png",
     "tags": "Tutorial, Open Source, JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, NextJS, GitHub",
-    "content": "\n> Each page focuses on a single part of the system\n\n[PageGrid pages=\"/work/example/tutorial/env, /work/example/tutorial/quick-start\"]\n\n[GitHub url=\"https://github.com/goldlabelapps/example\" label=\"git clone https://github.com/goldlabelapps/example.git\"]\n\n#### Clone the public repository\n\nThis section walks through a minimal Goldlabel Core project from start to finish. Each page focuses on a single part of the system so you can see how the framework works in practice: how content is structured, how cartridges plug in, and how the app turns Markdown into a complete site.\n\nYou’ll clone the public repository, run the project locally, explore the folder layout, and understand how pages, components, and the global configuration interact. By the end, you’ll have a working mental model of Core and how to extend it with your own cartridges or custom UI.\n\nUse the pages in order, or jump directly to the area you need.\n"
+    "content": "\n> Each page focuses on a single part of the system\n\n[PageGrid pages=\"/work/example/tutorial/quick-start, /work/example/tutorial/env\"]\n\nThis section walks through a minimal Goldlabel Core project from start to finish. Each page focuses on a single part of the system so you can see how the framework works in practice: how content is structured, how cartridges plug in, and how the app turns Markdown into a complete site.\n\nYou’ll clone the public repository, run the project locally, explore the folder layout, and understand how pages, components, and the global configuration interact. By the end, you’ll have a working mental model of Core and how to extend it with your own cartridges or custom UI.\n\nUse the pages in order, or jump directly to the area you need.\n"
   },
   {
     "slug": "work/example/tutorial/quick-start",
@@ -685,7 +685,7 @@
     "description": "Get started with Goldlabel",
     "image": "/png/3rdParty/github_og.png",
     "tags": [],
-    "content": "\n> Get started with Goldlabel Core Open Source\n\n[GitHub url=\"https://github.com/goldlabelapps/example label=\"Clone repo\"]\n\n## 🚀 Install\n\n1. Clone the repo\n\n```bash\ngit clone https://github.com/javascript-pro/core.git\ncd core\nyarn install\n```\n\n2. Setup Environment\n\nCreate a `.env.local` file in the root directory with this variable. If you enable parts of the app which require other vars, it will let you know\n\n## 🔑 Develop\n\n```bash\nyarn dev\n```\n"
+    "content": "\n> Get started with Goldlabel Core Open Source\n\n#### 🚀 Install\n\n1. Clone the repo\n\n```bash\ngit clone https://github.com/goldlabelapps/example.git\ncd example\nyarn install\n```\n\n2. [Setup Environment](/work/example/tutorial/env)\n\nCreate a `.env.local` file in the root directory with this variable. If you enable parts of the app which require other vars, it will let you know\n\n#### 🔑 Start Dev Server\n\n```bash\nyarn dev\n```\n"
   },
   {
     "slug": "work/experience/aligent",

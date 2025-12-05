@@ -263,7 +263,7 @@
                     "icon": "examples",
                     "image": "/png/3rdParty/github_og.png",
                     "type": "file",
-                    "excerpt": "Get started with Goldlabel Core Open Source\n\n[GitHub url=\"https://github.com/goldlabelapps/example label=\"Clone repo\"]\n\n 🚀 Install\n\n1. Clone the repo\n\n\n\n2. Setup Environment\n\nCreate a  file in the ro"
+                    "excerpt": "Get started with Goldlabel Core Open Source\n\n 🚀 Install\n\n1. Clone the repo\n\n\n\n2. \n\nCreate a  file in the root directory with this variable. If you enable parts of the app which require other vars, it"
                   },
                   {
                     "title": ".env",
@@ -290,7 +290,7 @@
                   "NextJS",
                   "GitHub"
                 ],
-                "excerpt": "Each page focuses on a single part of the system\n\n[PageGrid pages=\"/work/example/tutorial/env, /work/example/tutorial/quickstart\"]\n\n[GitHub url=\"https://github.com/goldlabelapps/example\" label=\"git cl"
+                "excerpt": "Each page focuses on a single part of the system\n\n[PageGrid pages=\"/work/example/tutorial/quickstart, /work/example/tutorial/env\"]\n\nThis section walks through a minimal Goldlabel Core project from sta"
               }
             ],
             "icon": "examples",
@@ -1087,7 +1087,8 @@
                       "nextjs",
                       "flickr"
                     ],
-                    "excerpt": "Effective when it is structured clearly, documented properly, and resilient under realworld load\n\nREST has been the backbone of web communication for two decades. Despite alternatives such as GraphQL,"
+                    "excerpt": "Effective when it is structured clearly, documented properly, and resilient under realworld load\n\nREST has been the backbone of web communication for two decades. Despite alternatives such as GraphQL,",
+                    "newContent": true
                   },
                   {
                     "title": "Docker & Kubernetes",
