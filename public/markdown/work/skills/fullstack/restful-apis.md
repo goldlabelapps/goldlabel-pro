@@ -1,5 +1,5 @@
 ---
-order: 70
+order: 7
 title: RESTful APIs
 slug: /work/skills/fullstack/restful-apis
 description: The backbone of web communication for two decades
@@ -11,9 +11,9 @@ newContent: true
 
 > Effective when it is structured clearly, documented properly, and resilient under real-world load
 
-REST has been the backbone of web communication for two decades. Despite alternatives such as GraphQL, REST remains the dominant standard. The challenge has never been the concept itself, but the implementation. A REST API only becomes effective when it is structured clearly, documented properly, and resilient under real-world load — qualities that many APIs fail to achieve.
+[LinkOut title="Goldlabel RESTful API" icon="ai" url="/api"]
 
-[GitHub url="https://github.com/goldlabelapps/example.git/tree/master/app/api" label="/api"]
+REST has been the backbone of web communication for two decades. Despite alternatives such as GraphQL, REST remains the dominant standard. The challenge has never been the concept itself, but the implementation. A REST API only becomes effective when it is structured clearly, documented properly, and resilient under real-world load — qualities that many APIs fail to achieve.
 
 Next.js provides a streamlined API layer that fits naturally into the App Router. Endpoints live alongside the rest of the application, follow the same routing conventions, and require no additional server framework. For full-stack React development, this creates a unified environment with minimal overhead.
 

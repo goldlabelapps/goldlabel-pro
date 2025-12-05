@@ -952,6 +952,25 @@
                 "type": "folder",
                 "children": [
                   {
+                    "title": "RESTful APIs",
+                    "slug": "/work/skills/fullstack/restful-apis",
+                    "order": 7,
+                    "icon": "techstack",
+                    "image": "/png/3rdParty/next_og.png",
+                    "type": "file",
+                    "tags": [
+                      "free",
+                      "api",
+                      "restful",
+                      "endpoints",
+                      "next",
+                      "nextjs",
+                      "flickr"
+                    ],
+                    "excerpt": "Effective when it is structured clearly, documented properly, and resilient under realworld load\n\n[LinkOut title=\"Goldlabel RESTful API\" icon=\"ai\" url=\"/api\"]\n\nREST has been the backbone of web commun",
+                    "newContent": true
+                  },
+                  {
                     "title": "DevOps",
                     "slug": "/work/skills/fullstack/devops",
                     "order": 18,
@@ -1070,25 +1089,6 @@
                       "restful"
                     ],
                     "excerpt": "Things that actually matter daytoday as a React developer using GraphQL\n\n 1. You fetch exactly what you need\n\nNo overfetching, no underfetching.\nComponents request the precise fields they use, nothing"
-                  },
-                  {
-                    "title": "RESTful APIs",
-                    "slug": "/work/skills/fullstack/restful-apis",
-                    "order": 70,
-                    "icon": "techstack",
-                    "image": "/png/3rdParty/next_og.png",
-                    "type": "file",
-                    "tags": [
-                      "free",
-                      "api",
-                      "restful",
-                      "endpoints",
-                      "next",
-                      "nextjs",
-                      "flickr"
-                    ],
-                    "excerpt": "Effective when it is structured clearly, documented properly, and resilient under realworld load\n\nREST has been the backbone of web communication for two decades. Despite alternatives such as GraphQL,",
-                    "newContent": true
                   },
                   {
                     "title": "Docker & Kubernetes",
