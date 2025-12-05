@@ -1,10 +1,13 @@
 // /Users/goldlabel/GitHub/example-app/gl-core/cartridges/DesignSystem/components/Navigation.tsx
 'use client';
+
 import { NavItem } from '../types';
 import globalNav from '../../../../public/globalNav.json';
 import * as React from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 import {
+  IconButton,
+  Drawer,
   List,
   ListItemButton,
   ListItemIcon,
@@ -12,10 +15,13 @@ import {
   Box,
   Typography,
 } from '@mui/material';
-import { useIsMobile, useDispatch } from '../../../../gl-core';
-import { Icon, setDesignSystemKey } from '../../../cartridges/DesignSystem';
 
-// --- helper functions ---
+import { useIsMobile, useDispatch } from '../../../../gl-core';
+import { Icon, setDesignSystemKey, useDesignSystem } from '../../../cartridges/DesignSystem';
+
+// -------------------------------------------------------------
+// helper functions
+// -------------------------------------------------------------
 function findNode(items: NavItem[], slug: string): NavItem | null {
   for (const item of items) {
     if (item.slug === slug) return item;
@@ -50,9 +56,13 @@ function findParentContents(items: NavItem[], slug: string): NavItem[] | null {
   return null;
 }
 
-// --- main component ---
+// -------------------------------------------------------------
+// main component
+// -------------------------------------------------------------
 export default function Navigation() {
   const dispatch = useDispatch();
+  const ds = useDesignSystem();
+  const navOpen = ds.navOpen;        // ← uses your DesignSystem store
   const pathname = usePathname();
   const router = useRouter();
   const isMobile = useIsMobile();
@@ -79,7 +89,6 @@ export default function Navigation() {
   const ancestors = React.useMemo(() => {
     if (!currentNode) return [];
     const chain = getAncestors(currentNode.slug);
-    // include current node if it’s an index-like page
     if (
       currentNode.slug === '/' ||
       currentNode.slug.endsWith('/index') ||
@@ -108,10 +117,7 @@ export default function Navigation() {
         ? [...contents].sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
         : null;
     } else {
-      const parentContents = findParentContents(
-        globalNav as NavItem[],
-        pathname,
-      );
+      const parentContents = findParentContents(globalNav as NavItem[], pathname);
       return parentContents
         ? [...parentContents].sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
         : null;
@@ -123,59 +129,47 @@ export default function Navigation() {
     return findParent(globalNav as NavItem[], currentNode.slug);
   }, [currentNode]);
 
-  // --- render ---
-  if (!currentNode) return null;
 
-  return (
-    <Box>
-      {/* Ancestor chain */}
+  // -------------------------------------------------------------
+  // Navigation list rendering function (used in both desktop + drawer)
+  // -------------------------------------------------------------
+  const renderNavList = (
+    <Box sx={{ width: isMobile ? '80vw' : 'auto' }}>
       {ancestors.map((node) => (
         <ListItemButton
           key={node.slug}
           onClick={() => {
             handleCloseDialog();
+            dispatch(setDesignSystemKey('navOpen', false));
             router.push(node.slug);
           }}
         >
           <ListItemIcon>
             <Icon icon={(node.icon as any) || 'up'} color="secondary" />
           </ListItemIcon>
-          {!isMobile && (
             <ListItemText
-              primary={
-                <Typography noWrap variant="body2">
-                  {node.title}
-                </Typography>
-              }
+              primary={<Typography noWrap variant="body2">{node.title}</Typography>}
             />
-          )}
         </ListItemButton>
       ))}
 
-      {/* Parent fallback if no siblings */}
       {(!siblings || siblings.length === 0) && parent && (
         <ListItemButton
           onClick={() => {
             handleCloseDialog();
+            dispatch(setDesignSystemKey('navOpen', false));
             router.push(parent.slug);
           }}
         >
           <ListItemIcon>
             <Icon icon={(parent.icon as any) || 'up'} color="secondary" />
           </ListItemIcon>
-          {!isMobile && (
             <ListItemText
-              primary={
-                <Typography noWrap variant="body2">
-                  {parent.title}
-                </Typography>
-              }
+              primary={<Typography noWrap variant="body2">{parent.title}</Typography>}
             />
-          )}
         </ListItemButton>
       )}
 
-      {/* Siblings list */}
       {siblings && siblings.length > 0 && (
         <List dense disablePadding>
           {siblings.map((item) => {
@@ -186,21 +180,16 @@ export default function Navigation() {
                 disabled={isCurrent}
                 onClick={() => {
                   handleCloseDialog();
+                  dispatch(setDesignSystemKey('navOpen', false));
                   router.push(item.slug);
                 }}
               >
                 <ListItemIcon>
                   <Icon icon={item.icon as any} color="secondary" />
                 </ListItemIcon>
-                {!isMobile && (
                   <ListItemText
-                    primary={
-                      <Typography noWrap variant="body2">
-                        {item.title}
-                      </Typography>
-                    }
+                    primary={<Typography noWrap variant="body2">{item.title}</Typography>}
                   />
-                )}
               </ListItemButton>
             );
           })}
@@ -208,4 +197,38 @@ export default function Navigation() {
       )}
     </Box>
   );
+
+
+  // -------------------------------------------------------------
+  // Mobile + Desktop rendering
+  // -------------------------------------------------------------
+  if (!currentNode) return null;
+
+  if (isMobile) {
+    return (
+      <>
+        <IconButton
+          sx={{ ml: 1, mt: 0.5 }}
+          color="primary"
+          onClick={() => dispatch(setDesignSystemKey('navOpen', true))}
+        >
+          <Icon icon="menu" />
+        </IconButton>
+
+        <Drawer
+          anchor="left"
+          open={navOpen}
+          onClose={() => dispatch(setDesignSystemKey('navOpen', false))}
+          ModalProps={{ keepMounted: true }}
+        >
+          <Box sx={{mt:2}}>
+            {renderNavList}
+          </Box>
+        </Drawer>
+      </>
+    );
+  }
+
+  // Desktop
+  return <Box>{renderNavList}</Box>;
 }
