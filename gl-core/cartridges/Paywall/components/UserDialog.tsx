@@ -12,7 +12,6 @@ import {
   AccordionDetails,
   Avatar,
   Typography,
-  Divider,
 } from '@mui/material';
 import { useDispatch, useIsMobile, Icon } from '../../../../gl-core';
 import { useDesignSystem, MenuSystem } from '../../DesignSystem';
@@ -71,12 +70,13 @@ export default function UserDialog() {
     >
       <DialogContent>
         <Grid container spacing={2} sx={{ mb: 1 }}>
-
           {/* Uber User Debug */}
           {user && isUberUser && (
             <Grid size={{ xs: 12 }}>
               <Accordion>
-                <AccordionSummary expandIcon={<Icon icon="down" color="secondary" />}>
+                <AccordionSummary
+                  expandIcon={<Icon icon="down" color="secondary" />}
+                >
                   Uber User Only
                 </AccordionSummary>
                 <AccordionDetails>
@@ -88,30 +88,16 @@ export default function UserDialog() {
             </Grid>
           )}
 
-          {/* User + Menu */}
-          <Grid size={{ xs: 12, md: 6 }}>
-            {user ? <User /> : <SignIn />}
-            <Box sx={{ mt: 2 }}>
-              <MenuSystem />
-            </Box>
-          </Grid>
+          
 
           {/* Location + Device Info */}
           <Grid size={{ xs: 12, md: 6 }}>
-
             {/* Location */}
             <Box sx={{ mt: 2 }}>
-              <Typography variant="subtitle2" sx={{ opacity: 0.7 }}>
-                Location
-              </Typography>
 
               <Box sx={{ display: 'flex', mt: 1 }}>
                 {flagSrc && (
-                  <Avatar
-                    sx={{ mr: 1 }}
-                    src={flagSrc}
-                    alt={country}
-                  />
+                  <Avatar sx={{ mr: 2 }} src={flagSrc} alt={country} />
                 )}
                 <Typography variant="body2">
                   {city}, {state}
@@ -124,13 +110,10 @@ export default function UserDialog() {
             {/* Network */}
             {ting && (
               <Box sx={{ mt: 2 }}>
-                <Typography variant="subtitle2" sx={{ opacity: 0.7 }}>
-                  Network
-                </Typography>
 
-                <Typography variant="body2">IP: {ip}</Typography>
-                {isp && <Typography variant="body2">{isp}</Typography>}
-                {org && <Typography variant="body2">{org}</Typography>}
+                <Typography variant="subtitle2">IP: {ip}</Typography>
+                {isp && <Typography variant="body1">{isp}</Typography>}
+                {org && <Typography variant="body1">{org}</Typography>}
               </Box>
             )}
 
@@ -153,12 +136,17 @@ export default function UserDialog() {
                   </Typography>
                 )}
 
-                <Typography variant="body2">
-                  Platform: {platform}
-                </Typography>
+                <Typography variant="body2">Platform: {platform}</Typography>
               </Box>
             )}
+          </Grid>
 
+          {/* User + Menu */}
+          <Grid size={{ xs: 12, md: 6 }}>
+            {user ? <User /> : <SignIn />}
+            <Box sx={{ mt: 2 }}>
+              <MenuSystem />
+            </Box>
           </Grid>
         </Grid>
       </DialogContent>
