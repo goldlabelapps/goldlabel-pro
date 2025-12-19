@@ -9,7 +9,6 @@
   "scripts": {
     "dev": "clear && rm -rf .next && yarn format && yarn generate && next dev --webpack",
     "generate": "tsx ./gl-core/lib/generate.mjs && yarn indexSearch",
-    "prepare": "husky install",
     "build": "next build --webpack",
     "indexSearch": "node ./gl-core/lib/buildSearchIndex.mjs",
     "lint": "next lint",
