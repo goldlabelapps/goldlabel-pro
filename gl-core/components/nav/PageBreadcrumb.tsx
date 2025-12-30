@@ -1,7 +1,7 @@
 // /Users/goldlabel/GitHub/example-app/gl-core/components/nav/PageBreadcrumb.tsx
 'use client';
 
-import React, { Suspense } from 'react';
+import React from 'react';
 import NextLink from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { Box, Link as MUILink, Typography } from '@mui/material';
@@ -61,6 +61,7 @@ function smartCapitalize(label: string): string {
     'SSR',
     'SSG',
   ];
+
   if (!label) return label;
 
   return label
@@ -134,11 +135,16 @@ export function PageBreadcrumb({
         flexWrap: 'wrap',
       }}
     >
-      <NextLink href="/" passHref legacyBehavior>
-        <MUILink underline="hover" color="primary" variant="caption">
-          {smartCapitalize(titleMap['/'] || 'Home')}
-        </MUILink>
-      </NextLink>
+      {/* HOME LINK — modern Next Link API */}
+      <MUILink
+        component={NextLink}
+        href="/"
+        underline="hover"
+        color="primary"
+        variant="caption"
+      >
+        {smartCapitalize(titleMap['/'] || 'Home')}
+      </MUILink>
 
       {segments.map((segment, index) => {
         const href = '/' + segments.slice(0, index + 1).join('/');
@@ -153,16 +159,21 @@ export function PageBreadcrumb({
         return (
           <React.Fragment key={href}>
             <Box sx={{ mx: 1 }}>/</Box>
+
             {isLast ? (
               <Typography variant="caption" sx={{ ml: 0.5 }}>
                 {displayLabel}
               </Typography>
             ) : (
-              <NextLink href={href} passHref legacyBehavior>
-                <MUILink underline="hover" color="primary" variant="caption">
-                  {displayLabel}
-                </MUILink>
-              </NextLink>
+              <MUILink
+                component={NextLink}
+                href={href}
+                underline="hover"
+                color="primary"
+                variant="caption"
+              >
+                {displayLabel}
+              </MUILink>
             )}
           </React.Fragment>
         );
