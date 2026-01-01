@@ -1,3 +1,4 @@
+// /Users/milky/My Drive/GitHub/example/next.config.js
 const withPWA = require('next-pwa')({
   dest: 'public',
   register: true,

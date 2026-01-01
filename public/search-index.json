@@ -210,10 +210,10 @@
   {
     "slug": "index",
     "title": "Home",
-    "description": "The apps we ship are real",
+    "description": "New for 2026",
     "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-    "tags": "JavaScript, Next Gen, Next.js, example app, Gen X, goldlabel, AI Prompt Engineering, ChatGPT, OpenAI, Singularity, Frontend, Vanilla JS, TypeScript, React, Material UI, MUI, Flash, SSR, SSG, Node, Gatsby, NextJS, Headless CMS, secure",
-    "content": "\n[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]\n"
+    "tags": "2026, JavaScript, Next Gen, Next.js, example app, Gen X, goldlabel, AI Prompt Engineering, ChatGPT, OpenAI, Singularity, Frontend, Vanilla JS, TypeScript, React, Material UI, MUI, Flash, SSR, SSG, Node, NextJS, Headless CMS, secure, work, life, balance",
+    "content": "\n[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]\n"
   },
   {
     "slug": "life/aquaponics/index",

@@ -1,7 +1,6 @@
 {
   "app": "Goldlabel Apps Ltd",
   "url": "https://goldlabel.pro",
-  "persist": true,
   "themes": {
     "light": {
       "mode": "light",

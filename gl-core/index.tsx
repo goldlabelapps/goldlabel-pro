@@ -31,7 +31,6 @@ import {
   useContent,
 } from './hooks';
 import {
-  Uberedux,
   UbereduxProvider,
   useSlice,
   useDispatch,
@@ -84,7 +83,7 @@ export {
   OpenSource,
   PageGrid,
 };
-export { Uberedux, UbereduxProvider, setUbereduxKey, resetUberedux };
+export { UbereduxProvider, setUbereduxKey, resetUberedux };
 export {
   useConfig,
   useIsMobile,

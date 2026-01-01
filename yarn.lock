@@ -1615,13 +1615,13 @@ __metadata:
   linkType: hard
 
 "@eslint-community/eslint-utils@npm:^4.8.0":
-  version: 4.9.0
-  resolution: "@eslint-community/eslint-utils@npm:4.9.0"
+  version: 4.9.1
+  resolution: "@eslint-community/eslint-utils@npm:4.9.1"
   dependencies:
     eslint-visitor-keys: "npm:^3.4.3"
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
-  checksum: 10c0/8881e22d519326e7dba85ea915ac7a143367c805e6ba1374c987aa2fbdd09195cc51183d2da72c0e2ff388f84363e1b220fd0d19bef10c272c63455162176817
+  checksum: 10c0/dc4ab5e3e364ef27e33666b11f4b86e1a6c1d7cbf16f0c6ff87b1619b3562335e9201a3d6ce806221887ff780ec9d828962a290bb910759fd40a674686503f02
   languageName: node
   linkType: hard
 
@@ -5624,7 +5624,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"baseline-browser-mapping@npm:^2.9.0":
+"baseline-browser-mapping@npm:2.9.11, baseline-browser-mapping@npm:^2.9.0":
   version: 2.9.11
   resolution: "baseline-browser-mapping@npm:2.9.11"
   bin:
@@ -7707,11 +7707,11 @@ __metadata:
   linkType: hard
 
 "esquery@npm:^1.5.0":
-  version: 1.6.0
-  resolution: "esquery@npm:1.6.0"
+  version: 1.7.0
+  resolution: "esquery@npm:1.7.0"
   dependencies:
     estraverse: "npm:^5.1.0"
-  checksum: 10c0/cb9065ec605f9da7a76ca6dadb0619dfb611e37a81e318732977d90fab50a256b95fee2d925fba7c2f3f0523aa16f91587246693bc09bc34d5a59575fe6e93d2
+  checksum: 10c0/77d5173db450b66f3bc685d11af4c90cffeedb340f34a39af96d43509a335ce39c894fd79233df32d38f5e4e219fa0f7076f6ec90bae8320170ba082c0db4793
   languageName: node
   linkType: hard
 
@@ -7786,93 +7786,6 @@ __metadata:
   checksum: 10c0/b240c515d30db3288b0fd2488325001f7955e58056da116d83d0219dabb39bdd543390ed3bcaf0ae994c0631f11a5245bd43343c6fd8ee42e1907692806861d3
   languageName: node
   linkType: hard
-
-"example@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "example@workspace:."
-  dependencies:
-    "@emotion/react": "npm:^11.14.0"
-    "@emotion/styled": "npm:^11.14.0"
-    "@fingerprintjs/fingerprintjs": "npm:^4.6.2"
-    "@google-cloud/vision": "npm:^5.2.0"
-    "@heroicons/react": "npm:2.1.3"
-    "@hookform/devtools": "npm:^4.4.0"
-    "@hookform/resolvers": "npm:^5.1.1"
-    "@mui/icons-material": "npm:^7.0.1"
-    "@mui/material": "npm:^7.1.1"
-    "@mui/x-data-grid": "npm:^8.7.0"
-    "@mui/x-tree-view": "npm:^8.3.0"
-    "@next/eslint-plugin-next": "npm:^15.2.4"
-    "@reduxjs/toolkit": "npm:^2.6.1"
-    "@toolpad/core": "npm:^0.14.0"
-    "@types/howler": "npm:^2"
-    "@types/mapbox-gl": "npm:^3.4.1"
-    "@types/mdast": "npm:^3"
-    "@types/minimatch": "npm:^6.0.0"
-    "@types/ms": "npm:0.7.34"
-    "@types/next-pwa": "npm:^5"
-    "@types/node": "npm:20.12.7"
-    "@types/node-fetch": "npm:^2.6.12"
-    "@types/react": "npm:^19.0.12"
-    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
-    "@vercel/git-hooks": "npm:1.0.0"
-    autoprefixer: "npm:10.4.19"
-    canvas: "npm:^3.1.0"
-    clsx: "npm:2.1.1"
-    date-fns: "npm:^4.1.0"
-    dinero.js: "npm:2.0.0-alpha.10"
-    eslint: "npm:^9.23.0"
-    eslint-config-next: "npm:14.2.2"
-    firebase: "npm:^11.5.0"
-    firebase-admin: "npm:^13.4.0"
-    gray-matter: "npm:^4.0.3"
-    gsap: "npm:^3.13.0"
-    hastscript: "npm:^9.0.1"
-    howler: "npm:^2.2.4"
-    html2pdf.js: "npm:^0.10.3"
-    husky: "npm:^9.1.7"
-    lint-staged: "npm:15.2.2"
-    mammoth: "npm:^1.9.1"
-    mapbox-gl: "npm:^3.15.0"
-    marked: "npm:^15.0.7"
-    mdast: "npm:^3.0.0"
-    moment: "npm:^2.30.1"
-    ms: "npm:3.0.0-canary.1"
-    next: "npm:15.6.0-canary.58"
-    next-pwa: "npm:^5.6.0"
-    node-fetch: "npm:^3.3.2"
-    openai: "npm:4.25.0"
-    pdf-parse: "npm:^1.1.1"
-    pdfjs-dist: "npm:2.14.305"
-    postcss: "npm:8.4.38"
-    prettier: "npm:3.2.5"
-    react: "npm:19.0.1"
-    react-dom: "npm:19.0.0"
-    react-hook-form: "npm:^7.57.0"
-    react-map-gl: "npm:^8.0.4"
-    react-mapbox-gl: "npm:^5.1.1"
-    react-markdown: "npm:^10.1.0"
-    react-player: "npm:^3.3.2"
-    react-redux: "npm:^9.2.0"
-    react-share: "npm:^5.2.2"
-    redux: "npm:^5.0.1"
-    redux-persist: "npm:^6.0.0"
-    remark: "npm:^15.0.1"
-    remark-directive: "npm:^4.0.0"
-    remark-gfm: "npm:^4.0.1"
-    resend: "npm:^4.6.0"
-    server-only: "npm:0.0.1"
-    styled-components: "npm:6.1.8"
-    tsx: "npm:^4.19.3"
-    typescript: "npm:5.4.5"
-    unified: "npm:^11.0.5"
-    unist-util-visit: "npm:^5.0.0"
-    use-count-up: "npm:3.0.1"
-    use-sound: "npm:^5.0.0"
-    vercel: "npm:34.0.0"
-    zod: "npm:^3.25.57"
-  languageName: unknown
-  linkType: soft
 
 "execa@npm:3.2.0":
   version: 3.2.0
@@ -8805,6 +8718,93 @@ __metadata:
   checksum: 10c0/656ad1f0d02c6ef378c07589519ed3ec27fe988ea177195c05b8aff280320f3d67b91fa0baa6f7e49288f9bf1f92fc84f783a79ac3ed66278f3fa082e627ed84
   languageName: node
   linkType: hard
+
+"goldlabel-pro@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "goldlabel-pro@workspace:."
+  dependencies:
+    "@emotion/react": "npm:^11.14.0"
+    "@emotion/styled": "npm:^11.14.0"
+    "@fingerprintjs/fingerprintjs": "npm:^4.6.2"
+    "@google-cloud/vision": "npm:^5.2.0"
+    "@heroicons/react": "npm:2.1.3"
+    "@hookform/devtools": "npm:^4.4.0"
+    "@hookform/resolvers": "npm:^5.1.1"
+    "@mui/icons-material": "npm:^7.0.1"
+    "@mui/material": "npm:^7.1.1"
+    "@mui/x-data-grid": "npm:^8.7.0"
+    "@mui/x-tree-view": "npm:^8.3.0"
+    "@next/eslint-plugin-next": "npm:^15.2.4"
+    "@reduxjs/toolkit": "npm:^2.6.1"
+    "@toolpad/core": "npm:^0.14.0"
+    "@types/howler": "npm:^2"
+    "@types/mapbox-gl": "npm:^3.4.1"
+    "@types/mdast": "npm:^3"
+    "@types/minimatch": "npm:^6.0.0"
+    "@types/ms": "npm:0.7.34"
+    "@types/next-pwa": "npm:^5"
+    "@types/node": "npm:20.12.7"
+    "@types/node-fetch": "npm:^2.6.12"
+    "@types/react": "npm:^19.0.12"
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
+    "@vercel/git-hooks": "npm:1.0.0"
+    autoprefixer: "npm:10.4.19"
+    baseline-browser-mapping: "npm:2.9.11"
+    canvas: "npm:^3.1.0"
+    clsx: "npm:2.1.1"
+    date-fns: "npm:^4.1.0"
+    dinero.js: "npm:2.0.0-alpha.10"
+    eslint: "npm:^9.23.0"
+    eslint-config-next: "npm:14.2.2"
+    firebase: "npm:^11.5.0"
+    firebase-admin: "npm:^13.4.0"
+    gray-matter: "npm:^4.0.3"
+    gsap: "npm:^3.13.0"
+    hastscript: "npm:^9.0.1"
+    howler: "npm:^2.2.4"
+    html2pdf.js: "npm:^0.10.3"
+    husky: "npm:^9.1.7"
+    lint-staged: "npm:15.2.2"
+    mammoth: "npm:^1.9.1"
+    mapbox-gl: "npm:^3.15.0"
+    marked: "npm:^15.0.7"
+    mdast: "npm:^3.0.0"
+    moment: "npm:^2.30.1"
+    ms: "npm:3.0.0-canary.1"
+    next: "npm:15.6.0-canary.58"
+    next-pwa: "npm:^5.6.0"
+    node-fetch: "npm:^3.3.2"
+    openai: "npm:4.25.0"
+    pdf-parse: "npm:^1.1.1"
+    pdfjs-dist: "npm:2.14.305"
+    postcss: "npm:8.4.38"
+    prettier: "npm:3.2.5"
+    react: "npm:19.0.1"
+    react-dom: "npm:19.0.0"
+    react-hook-form: "npm:^7.57.0"
+    react-map-gl: "npm:^8.0.4"
+    react-mapbox-gl: "npm:^5.1.1"
+    react-markdown: "npm:^10.1.0"
+    react-player: "npm:^3.3.2"
+    react-redux: "npm:^9.2.0"
+    react-share: "npm:^5.2.2"
+    redux: "npm:^5.0.1"
+    remark: "npm:^15.0.1"
+    remark-directive: "npm:^4.0.0"
+    remark-gfm: "npm:^4.0.1"
+    resend: "npm:^4.6.0"
+    server-only: "npm:0.0.1"
+    styled-components: "npm:6.1.8"
+    tsx: "npm:^4.19.3"
+    typescript: "npm:5.4.5"
+    unified: "npm:^11.0.5"
+    unist-util-visit: "npm:^5.0.0"
+    use-count-up: "npm:3.0.1"
+    use-sound: "npm:^5.0.0"
+    vercel: "npm:34.0.0"
+    zod: "npm:^3.25.57"
+  languageName: unknown
+  linkType: soft
 
 "google-auth-library@npm:^10.1.0":
   version: 10.5.0
@@ -13220,15 +13220,6 @@ __metadata:
   dependencies:
     picomatch: "npm:^2.0.7"
   checksum: 10c0/5aba38edb43fca70e771bdd606959d18839aedd445041b3aaa886613cf739e1486e64bbc24769b53fe124f0f905a88c8c4b633da166c26a61135ab8ced077c5f
-  languageName: node
-  linkType: hard
-
-"redux-persist@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "redux-persist@npm:6.0.0"
-  peerDependencies:
-    redux: ">4.0.0"
-  checksum: 10c0/8242d265ab8d28bbc95cf2dc2a05b869eb67aa309b1ed08163c926f3af56dd8eb1ea62118286083461b8ef2024d3b349fd264e5a62a70eb2e74d068c832d5bf2
   languageName: node
   linkType: hard
 

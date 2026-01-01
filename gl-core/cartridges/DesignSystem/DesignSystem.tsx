@@ -25,11 +25,11 @@ export default function DesignSystem({
   const { version } = useSlice();
   React.useEffect(() => {
     if (!feedbackTested) {
-      // const feedback: TFeedback = {
-      //   severity: 'success',
-      //   title: `v${version} booted OK`,
-      // };
-      // dispatch(setFeedback(feedback));
+      const feedback: TFeedback = {
+        severity: 'success',
+        title: `v${version}`,
+      };
+      dispatch(setFeedback(feedback));
       dispatch(setDesignSystemKey('feedbackTested', true));
     }
   }, [dispatch, feedbackTested]);

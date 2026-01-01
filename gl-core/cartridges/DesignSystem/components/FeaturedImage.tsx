@@ -24,11 +24,14 @@ export default function FeaturedImage({
 
   if (!image) return null;
 
+  // Don't set priority for external images to avoid preload issues
+  const effectivePriority = priority && !image.startsWith('http');
+
   return (
     <Box sx={{ width: '100%' }}>
       {!error ? (
         <Image
-          priority={priority}
+          priority={effectivePriority}
           src={image}
           alt={title || 'Goldlabel'}
           width={1200}

@@ -1,12 +1,13 @@
 {
-  "version": "52.5.4",
-  "name": "example",
+  "name": "goldlabel-pro",
+  "version": "52.5.5",
   "description": "Always FREE. Always Open Source",
   "repository": {
     "type": "git",
-    "url": "https://github.com/goldlabelapps/example"
+    "url": "https://github.com/goldlabelapps/goldlabel-pro"
   },
   "scripts": {
+    "clean": "clear && rm -rf node_modules .next .yarn yarn.lock next-env.d.ts && l",
     "dev": "clear && rm -rf .next && yarn format && yarn generate && yarn next dev --webpack",
     "generate": "tsx ./gl-core/lib/generate.mjs && yarn indexSearch",
     "build": "yarn next build --webpack",
@@ -75,7 +76,6 @@
     "react-redux": "^9.2.0",
     "react-share": "^5.2.2",
     "redux": "^5.0.1",
-    "redux-persist": "^6.0.0",
     "remark": "^15.0.1",
     "remark-directive": "^4.0.0",
     "remark-gfm": "^4.0.1",
@@ -104,6 +104,7 @@
     "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
     "@vercel/git-hooks": "1.0.0",
     "autoprefixer": "10.4.19",
+    "baseline-browser-mapping": "2.9.11",
     "eslint": "^9.23.0",
     "eslint-config-next": "14.2.2",
     "husky": "^9.1.7",

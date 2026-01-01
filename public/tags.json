@@ -1,15 +1,16 @@
 {
-  "JavaScript": {
-    "count": 22,
+  "2026": {
+    "count": 1,
     "pages": [
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -30,10 +31,54 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
+        ]
+      }
+    ]
+  },
+  "JavaScript": {
+    "count": 22,
+    "pages": [
+      {
+        "title": "Home",
+        "slug": "/",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
+        "icon": "home",
+        "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
+        "description": "New for 2026",
+        "tags": [
+          "2026",
+          "JavaScript",
+          "Next Gen",
+          "Next.js",
+          "example app",
+          "Gen X",
+          "goldlabel",
+          "AI Prompt Engineering",
+          "ChatGPT",
+          "OpenAI",
+          "Singularity",
+          "Frontend",
+          "Vanilla JS",
+          "TypeScript",
+          "React",
+          "Material UI",
+          "MUI",
+          "Flash",
+          "SSR",
+          "SSG",
+          "Node",
+          "NextJS",
+          "Headless CMS",
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       },
       {
@@ -375,11 +420,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -400,10 +446,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       }
     ]
@@ -414,11 +462,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -439,10 +488,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       },
       {
@@ -520,11 +571,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -545,10 +597,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       }
     ]
@@ -559,11 +613,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -584,10 +639,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       }
     ]
@@ -598,11 +655,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -623,10 +681,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       }
     ]
@@ -637,11 +697,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -662,10 +723,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       }
     ]
@@ -676,11 +739,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -701,10 +765,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       }
     ]
@@ -715,11 +781,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -740,10 +807,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       }
     ]
@@ -754,11 +823,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -779,10 +849,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       }
     ]
@@ -793,11 +865,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -818,10 +891,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       }
     ]
@@ -832,11 +907,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -857,10 +933,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       }
     ]
@@ -871,11 +949,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -896,10 +975,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       },
       {
@@ -1185,11 +1266,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -1210,10 +1292,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       },
       {
@@ -1578,11 +1662,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -1603,10 +1688,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       },
       {
@@ -1705,11 +1792,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -1730,10 +1818,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       }
     ]
@@ -1744,11 +1834,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -1769,10 +1860,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       },
       {
@@ -1871,11 +1964,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -1896,10 +1990,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       },
       {
@@ -1927,11 +2023,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -1952,10 +2049,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       },
       {
@@ -1983,11 +2082,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -2008,10 +2108,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       },
       {
@@ -2171,102 +2273,18 @@
       }
     ]
   },
-  "Gatsby": {
-    "count": 3,
-    "pages": [
-      {
-        "title": "Home",
-        "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
-        "icon": "home",
-        "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
-        "tags": [
-          "JavaScript",
-          "Next Gen",
-          "Next.js",
-          "example app",
-          "Gen X",
-          "goldlabel",
-          "AI Prompt Engineering",
-          "ChatGPT",
-          "OpenAI",
-          "Singularity",
-          "Frontend",
-          "Vanilla JS",
-          "TypeScript",
-          "React",
-          "Material UI",
-          "MUI",
-          "Flash",
-          "SSR",
-          "SSG",
-          "Node",
-          "Gatsby",
-          "NextJS",
-          "Headless CMS",
-          "secure"
-        ]
-      },
-      {
-        "title": "Work",
-        "slug": "/work",
-        "excerpt": "Goldlabel builds and ships modern web apps for clients who need real results fast\n\n Small team. Big output\n Real deployments from Day One\n Readable, extensible, Open Source\n\n[LinkOut title=\"Explore AP",
-        "icon": "work",
-        "image": "https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg",
-        "description": "20+ Years of coding",
-        "tags": [
-          "Professional",
-          "JavaScript",
-          "Vanilla JavaScript",
-          "TypeScript",
-          "React",
-          "Material UI",
-          "Flash",
-          "Server Side JavaScript",
-          "Node",
-          "Gatsby",
-          "NextJS",
-          "Headless CMS"
-        ]
-      },
-      {
-        "title": "JavaScript",
-        "slug": "/work/skills/javascript",
-        "excerpt": "\"A JavaScript team that’s battletested, precise, and fast.\"\n\n[PageGrid pages=\"/work/skills/javascript/ecmascript, /work/skills/javascript/typescript, /work/skills/javascript/react, /work/skills/javasc",
-        "icon": "js",
-        "image": "/png/3rdParty/javascript_og.png",
-        "description": "JavaScript Whatever the Weather",
-        "tags": [
-          "Fullstack JavaScript",
-          "Vanilla JavaScript",
-          "TypeScript",
-          "React",
-          "Angular",
-          "Vue",
-          "Material UI",
-          "Flash",
-          "Server Side JavaScript",
-          "Node",
-          "Gatsby",
-          "NextJS",
-          "Headless CMS",
-          "JSON"
-        ]
-      }
-    ]
-  },
   "NextJS": {
     "count": 5,
     "pages": [
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -2287,10 +2305,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       },
       {
@@ -2389,11 +2409,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -2414,10 +2435,12 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       },
       {
@@ -2474,11 +2497,12 @@
       {
         "title": "Home",
         "slug": "/",
-        "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
         "icon": "home",
         "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
-        "description": "The apps we ship are real",
+        "description": "New for 2026",
         "tags": [
+          "2026",
           "JavaScript",
           "Next Gen",
           "Next.js",
@@ -2499,10 +2523,151 @@
           "SSR",
           "SSG",
           "Node",
-          "Gatsby",
           "NextJS",
           "Headless CMS",
-          "secure"
+          "secure",
+          "work",
+          "life",
+          "balance"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "count": 2,
+    "pages": [
+      {
+        "title": "Home",
+        "slug": "/",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
+        "icon": "home",
+        "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
+        "description": "New for 2026",
+        "tags": [
+          "2026",
+          "JavaScript",
+          "Next Gen",
+          "Next.js",
+          "example app",
+          "Gen X",
+          "goldlabel",
+          "AI Prompt Engineering",
+          "ChatGPT",
+          "OpenAI",
+          "Singularity",
+          "Frontend",
+          "Vanilla JS",
+          "TypeScript",
+          "React",
+          "Material UI",
+          "MUI",
+          "Flash",
+          "SSR",
+          "SSG",
+          "Node",
+          "NextJS",
+          "Headless CMS",
+          "secure",
+          "work",
+          "life",
+          "balance"
+        ]
+      },
+      {
+        "title": "Skills",
+        "slug": "/work/skills",
+        "excerpt": "Working across the full JavaScript stack to help understand every perspective from interface to infrastructure\n\n[PageGrid pages=\"/work/skills/npm, /work/skills/ecmascript, /work/skills/javascript/reac",
+        "icon": "techstack",
+        "image": "/png/3rdParty/react.png",
+        "description": "Fullstack JavaScript & more",
+        "tags": [
+          "expertise",
+          "fields",
+          "work"
+        ]
+      }
+    ]
+  },
+  "life": {
+    "count": 1,
+    "pages": [
+      {
+        "title": "Home",
+        "slug": "/",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
+        "icon": "home",
+        "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
+        "description": "New for 2026",
+        "tags": [
+          "2026",
+          "JavaScript",
+          "Next Gen",
+          "Next.js",
+          "example app",
+          "Gen X",
+          "goldlabel",
+          "AI Prompt Engineering",
+          "ChatGPT",
+          "OpenAI",
+          "Singularity",
+          "Frontend",
+          "Vanilla JS",
+          "TypeScript",
+          "React",
+          "Material UI",
+          "MUI",
+          "Flash",
+          "SSR",
+          "SSG",
+          "Node",
+          "NextJS",
+          "Headless CMS",
+          "secure",
+          "work",
+          "life",
+          "balance"
+        ]
+      }
+    ]
+  },
+  "balance": {
+    "count": 1,
+    "pages": [
+      {
+        "title": "Home",
+        "slug": "/",
+        "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]",
+        "icon": "home",
+        "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
+        "description": "New for 2026",
+        "tags": [
+          "2026",
+          "JavaScript",
+          "Next Gen",
+          "Next.js",
+          "example app",
+          "Gen X",
+          "goldlabel",
+          "AI Prompt Engineering",
+          "ChatGPT",
+          "OpenAI",
+          "Singularity",
+          "Frontend",
+          "Vanilla JS",
+          "TypeScript",
+          "React",
+          "Material UI",
+          "MUI",
+          "Flash",
+          "SSR",
+          "SSG",
+          "Node",
+          "NextJS",
+          "Headless CMS",
+          "secure",
+          "work",
+          "life",
+          "balance"
         ]
       }
     ]
@@ -4681,6 +4846,57 @@
       }
     ]
   },
+  "Gatsby": {
+    "count": 2,
+    "pages": [
+      {
+        "title": "Work",
+        "slug": "/work",
+        "excerpt": "Goldlabel builds and ships modern web apps for clients who need real results fast\n\n Small team. Big output\n Real deployments from Day One\n Readable, extensible, Open Source\n\n[LinkOut title=\"Explore AP",
+        "icon": "work",
+        "image": "https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg",
+        "description": "20+ Years of coding",
+        "tags": [
+          "Professional",
+          "JavaScript",
+          "Vanilla JavaScript",
+          "TypeScript",
+          "React",
+          "Material UI",
+          "Flash",
+          "Server Side JavaScript",
+          "Node",
+          "Gatsby",
+          "NextJS",
+          "Headless CMS"
+        ]
+      },
+      {
+        "title": "JavaScript",
+        "slug": "/work/skills/javascript",
+        "excerpt": "\"A JavaScript team that’s battletested, precise, and fast.\"\n\n[PageGrid pages=\"/work/skills/javascript/ecmascript, /work/skills/javascript/typescript, /work/skills/javascript/react, /work/skills/javasc",
+        "icon": "js",
+        "image": "/png/3rdParty/javascript_og.png",
+        "description": "JavaScript Whatever the Weather",
+        "tags": [
+          "Fullstack JavaScript",
+          "Vanilla JavaScript",
+          "TypeScript",
+          "React",
+          "Angular",
+          "Vue",
+          "Material UI",
+          "Flash",
+          "Server Side JavaScript",
+          "Node",
+          "Gatsby",
+          "NextJS",
+          "Headless CMS",
+          "JSON"
+        ]
+      }
+    ]
+  },
   "intellectual-property": {
     "count": 5,
     "pages": [
@@ -6690,24 +6906,6 @@
     ]
   },
   "fields": {
-    "count": 1,
-    "pages": [
-      {
-        "title": "Skills",
-        "slug": "/work/skills",
-        "excerpt": "Working across the full JavaScript stack to help understand every perspective from interface to infrastructure\n\n[PageGrid pages=\"/work/skills/npm, /work/skills/ecmascript, /work/skills/javascript/reac",
-        "icon": "techstack",
-        "image": "/png/3rdParty/react.png",
-        "description": "Fullstack JavaScript & more",
-        "tags": [
-          "expertise",
-          "fields",
-          "work"
-        ]
-      }
-    ]
-  },
-  "work": {
     "count": 1,
     "pages": [
       {
