@@ -8789,7 +8789,6 @@ __metadata:
     react-redux: "npm:^9.2.0"
     react-share: "npm:^5.2.2"
     redux: "npm:^5.0.1"
-    redux-persist: "npm:^6.0.0"
     remark: "npm:^15.0.1"
     remark-directive: "npm:^4.0.0"
     remark-gfm: "npm:^4.0.1"
@@ -13221,15 +13220,6 @@ __metadata:
   dependencies:
     picomatch: "npm:^2.0.7"
   checksum: 10c0/5aba38edb43fca70e771bdd606959d18839aedd445041b3aaa886613cf739e1486e64bbc24769b53fe124f0f905a88c8c4b633da166c26a61135ab8ced077c5f
-  languageName: node
-  linkType: hard
-
-"redux-persist@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "redux-persist@npm:6.0.0"
-  peerDependencies:
-    redux: ">4.0.0"
-  checksum: 10c0/8242d265ab8d28bbc95cf2dc2a05b869eb67aa309b1ed08163c926f3af56dd8eb1ea62118286083461b8ef2024d3b349fd264e5a62a70eb2e74d068c832d5bf2
   languageName: node
   linkType: hard
 
