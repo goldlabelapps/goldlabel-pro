@@ -10,7 +10,7 @@ noImage: true
 
 > Material UI is a React component library that provides a consistent design system, layout primitives, and ready-made UI components
 
-[GitHub url="https://github.com/goldlabelapps/example/tree/master/gl-core/cartridges/Theme" label="Design System Cartridge"]
+[GitHub url="https://github.com/goldlabelapps/goldlabel-pro/tree/master/gl-core/cartridges/DesignSystem" label="Design System Cartridge"]
 
 #### Foundation for all shared UI
 
