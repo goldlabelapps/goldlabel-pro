@@ -10,4 +10,4 @@ tags: 2026, JavaScript, Next Gen, Next.js, example app, Gen X, goldlabel, AI Pro
 
 Instead of asking how AI will help us do a Jigsaw puzzle, we'll focus on explaining to AI why jigsaws exist. They give us something to do. Otherwise we'd just pick peanuts out of poo, eat the peanuts and fling the poo at each other
 
-[PageGrid pages="/work, /life, /balance"]
+[PageGrid thumbnails="yes" pages="/work, /life, /balance"]
