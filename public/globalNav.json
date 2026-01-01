@@ -1,7 +1,7 @@
 [
   {
     "title": "Home",
-    "description": "New in 2026",
+    "description": "New for 2026",
     "slug": "/",
     "order": 1,
     "type": "folder",
