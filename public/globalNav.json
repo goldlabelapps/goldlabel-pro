@@ -1,7 +1,7 @@
 [
   {
     "title": "Home",
-    "description": "The apps we ship are real",
+    "description": "New in 2026",
     "slug": "/",
     "order": 1,
     "type": "folder",
@@ -1958,6 +1958,7 @@
     "icon": "home",
     "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
     "tags": [
+      "2026",
       "JavaScript",
       "Next Gen",
       "Next.js",
@@ -1978,11 +1979,13 @@
       "SSR",
       "SSG",
       "Node",
-      "Gatsby",
       "NextJS",
       "Headless CMS",
-      "secure"
+      "secure",
+      "work",
+      "life",
+      "balance"
     ],
-    "excerpt": "[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]"
+    "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]"
   }
 ]
