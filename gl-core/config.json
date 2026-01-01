@@ -4,17 +4,17 @@
   "themes": {
     "light": {
       "mode": "light",
-      "primary": "#126A71",
-      "secondary": "#82A6AE",
-      "background": "#FFF",
-      "paper": "#FAFFFF",
+      "primary": "#568505",
+      "secondary": "#89b63c",
+      "background": "#faffff",
+      "paper": "#faffff",
       "border": "#FAFFFF",
       "text": "#303030"
     },
     "dark": {
       "mode": "dark",
-      "primary": "#1db2d3",
-      "secondary": "#047C97",
+      "primary": "#a0ee1a",
+      "secondary": "#a0ee1a",
       "background": "#001321",
       "paper": "#0A2D47",
       "text": "#FFFFFF",
