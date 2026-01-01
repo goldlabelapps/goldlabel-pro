@@ -1146,7 +1146,7 @@
           "NextJS",
           "Headless CMS"
         ],
-        "excerpt": "Goldlabel builds and ships modern web apps for clients who need real results fast\n\n Small team. Big output\n Real deployments from Day One\n Readable, extensible, Open Source\n\n[LinkOut title=\"Explore AP"
+        "excerpt": "Goldlabel builds and ships modern web apps for clients who need real results fast\n\n Small team. Big output\n Real deployments from Day One\n Readable, extensible, Open Source\n\n[PageGrid thumbnails=\"no\" "
       },
       {
         "title": "Life",
@@ -1955,7 +1955,7 @@
         "excerpt": "If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are \n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]"
       }
     ],
-    "icon": "home",
+    "icon": "goldlabel",
     "image": "https://live.staticflickr.com/65535/55016269007_092c55e1ba_b.jpg",
     "tags": [
       "2026",

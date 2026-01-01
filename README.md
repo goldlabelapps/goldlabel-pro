@@ -4,7 +4,7 @@
 
 A modern, feature-rich Next.js application framework with a powerful cartridge-based architecture for building scalable web applications.
 
-[![Version](https://img.shields.io/badge/version-52.5.5-blue.svg)](https://github.com/goldlabelapps/goldlabel-pro)
+[![Version](https://img.shields.io/badge/version-52.5.6-blue.svg)](https://github.com/goldlabelapps/goldlabel-pro)
 [![License](https://img.shields.io/badge/license-open--source-green.svg)](https://github.com/goldlabelapps/goldlabel-pro)
 [![Node](https://img.shields.io/badge/node-22.x-brightgreen.svg)](https://nodejs.org/)
 

@@ -62,7 +62,6 @@ const SearchIconWrapper = styled('div')(({ theme }) => ({
 }));
 
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
-  color: 'inherit',
   width: '100%',
   '& .MuiInputBase-input': {
     padding: theme.spacing(1, 1, 1, 0),
@@ -87,7 +86,7 @@ function flattenNav(nav: any[], acc: TFlatItem[] = []) {
   return acc;
 }
 
-export default function Search({ onTrigger = () => {} }: TSearch) {
+export default function Search({ onTrigger = () => { } }: TSearch) {
   const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
   const [highlightIndex, setHighlightIndex] = useState(-1);
