@@ -83,7 +83,7 @@
     "slug": "balance/index",
     "title": "Balance",
     "description": "Were you the kind of kid who liked Lego?",
-    "image": "https://live.staticflickr.com/65535/54933893533_4b3dbc97d6_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55017142956_042bea653d_b.jpg",
     "tags": [],
     "content": "\n> If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are [Generation X](/balance/books/douglas-coupland/generation-x)\n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]\n"
   },
@@ -210,10 +210,10 @@
   {
     "slug": "index",
     "title": "Home",
-    "description": "New for 2026",
-    "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
+    "description": "What we expect from 2026",
+    "image": "https://live.staticflickr.com/65535/55016269007_092c55e1ba_b.jpg",
     "tags": "2026, JavaScript, Next Gen, Next.js, example app, Gen X, goldlabel, AI Prompt Engineering, ChatGPT, OpenAI, Singularity, Frontend, Vanilla JS, TypeScript, React, Material UI, MUI, Flash, SSR, SSG, Node, NextJS, Headless CMS, secure, work, life, balance",
-    "content": "\n[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]\n\nIn 2026 we're going to stop asking ourselves how can AI help me do a Jigsaw puzzle, instead focussing on learning how to explain to an AI why people do jigsaws. I spose it gives us something to do. Otherwise we'd just go back to picking peanuts out of poo, eating the peanuts and fligning the poo at each other\n"
+    "content": "\nWe're going to stop asking ourselves how can AI help me do a Jigsaw puzzle, instead focussing on learning how to explain to an AI why people do jigsaws. Jigsaws give us something to do. Otherwise we'd just go back to picking peanuts out of poo, eating the peanuts and fligning the poo at each other\n\n[PageGrid thumbnails=\"yes\" pages=\"/work, /life, /balance\"]\n"
   },
   {
     "slug": "life/aquaponics/index",
@@ -507,7 +507,7 @@
     "slug": "life/index",
     "title": "Life",
     "description": "Generation X at 50",
-    "image": "https://live.staticflickr.com/65535/54929859240_2873323696_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55017142956_042bea653d_b.jpg",
     "tags": [],
     "content": "\n[PageGrid thumbnails=\"no\" pages=\" /life/books, /life/food, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing\"]\n\n> ⚠️ Cultural reference: Generation X, Tales for an Accelerated Culture is a 1991 novel written by Canadian author Douglas Coupland\n\nI work remotely. I cook, eat, ride motorbikes and scuba dive. Skiing used to be my favourite, but I'm a bit old now. I lost toes and broke a hip, so at my age maybe it's time to take up sailing. We are [Generation X](/balance/writers/generation-x)\n"
   },
@@ -747,7 +747,7 @@
     "slug": "work/index",
     "title": "Work",
     "description": "20+ Years of coding",
-    "image": "https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55016266502_3c145fbbcd_b.jpg",
     "tags": "Professional, JavaScript, Vanilla JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, Gatsby, NextJS, Headless CMS",
     "content": "\n> Goldlabel builds and ships modern web apps for clients who need real results fast\n\n- _Small_ team. _Big_ output\n- Real deployments from Day One\n- Readable, extensible, Open Source\n\n[LinkOut title=\"Explore API\" icon=\"api\" url=\"/api\"]\n\n[PageGrid thumbnails=\"no\" pages=\"/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example\"]\n\n[LinkOut title=\"Kanban Board\" icon=\"github\" url=\"https://github.com/users/goldlabelapps/projects/3\"]\n"
   },

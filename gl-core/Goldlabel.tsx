@@ -111,7 +111,7 @@ export default function Goldlabel({ frontmatter, body = null }: TCore) {
                     fontSize: { xs: '1.6rem', md: '2rem' },
                   }}
                 >
-                  {title !== 'Home' ? title : 'Goldlabel Apps'}
+                  {title !== 'Home' ? title : 'Goldlabel'}
                 </Typography>
                 <Box sx={{ flexGrow: 1 }} />
                 {isMobile && (
