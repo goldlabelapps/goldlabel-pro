@@ -20,7 +20,7 @@ import {
   useIsMobile,
   useVersionCheck,
   useDispatch,
-  useSiblings,
+  // useSiblings,
   SharePopup,
   Icon,
 } from '../gl-core';
@@ -54,8 +54,7 @@ export default function Goldlabel({ frontmatter, body = null }: TCore) {
 
   const [showWhatsNew, setShowWhatsNew] = React.useState(false);
 
-  const prefersDark = useMediaQuery('(prefers-color-scheme: dark)');
-  const siblings = useSiblings();
+  // const siblings = useSiblings();
   const pathname = usePathname();
   const { themeMode } = useDesignSystem();
   const isMobile = useIsMobile();
@@ -75,8 +74,7 @@ export default function Goldlabel({ frontmatter, body = null }: TCore) {
 
   useVersionCheck();
 
-  const effectiveThemeMode =
-    themeMode === null ? (prefersDark ? 'dark' : 'light') : themeMode;
+  const effectiveThemeMode = themeMode === null ? 'light' : themeMode;
 
   const isAuthed = !!(user && user.uid);
 

@@ -1,4 +1,4 @@
-import Uberedux from './Uberedux';
+// /Users/milky/My Drive/GitHub/goldlabel-pro/gl-core/cartridges/Uberedux/index.tsx
 import UbereduxProvider from './UbereduxProvider';
 import { useSlice } from './hooks/useSlice';
 import { useDispatch } from './hooks/useDispatch';
@@ -14,7 +14,6 @@ import { fetchGlobalNav } from './actions/fetchGlobalNav';
 
 export {
   UbereduxProvider,
-  Uberedux,
   useKey,
   useSlice,
   useDispatch,
