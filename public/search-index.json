@@ -213,7 +213,7 @@
     "description": "New for 2026",
     "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
     "tags": "2026, JavaScript, Next Gen, Next.js, example app, Gen X, goldlabel, AI Prompt Engineering, ChatGPT, OpenAI, Singularity, Frontend, Vanilla JS, TypeScript, React, Material UI, MUI, Flash, SSR, SSG, Node, NextJS, Headless CMS, secure, work, life, balance",
-    "content": "\n[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]\n"
+    "content": "\n[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]\n\nIn 2026 we're going to stop asking ourselves how can AI help me do a Jigsaw puzzle, instead focussing on learning how to explain to an AI why people do jigsaws. I spose it gives us something to do. Otherwise we'd just go back to picking peanuts out of poo, eating the peanuts and fligning the poo at each other\n"
   },
   {
     "slug": "life/aquaponics/index",
@@ -621,7 +621,7 @@
     "description": "Based on Material UI",
     "image": "/png/n64/test.png",
     "tags": [],
-    "content": "\n> Material UI is a React component library that provides a consistent design system, layout primitives, and ready-made UI components\n\n[GitHub url=\"https://github.com/goldlabelapps/example/tree/master/gl-core/cartridges/Theme\" label=\"Theme Cartridge\"]\n\n#### Foundation for all shared UI\n\n– MUI’s ThemeProvider establishes colours, typography, spacing and breakpoints\n\n– Components like Card, Grid, Box, Button, Dialog, Typography form the structural building blocks of all shared layouts\n\n– Custom elements (StandardCard, ConfirmDialog, PageGrid, etc.) wrap these primitives to enforce Goldlabel’s design language while staying flexible across cartridges and apps\n"
+    "content": "\n> Material UI is a React component library that provides a consistent design system, layout primitives, and ready-made UI components\n\n[GitHub url=\"https://github.com/goldlabelapps/example/tree/master/gl-core/cartridges/Theme\" label=\"Design System Cartridge\"]\n\n#### Foundation for all shared UI\n\n– MUI’s ThemeProvider establishes colours, typography, spacing and breakpoints\n\n– Components like Card, Grid, Box, Button, Dialog, Typography form the structural building blocks of all shared layouts\n\n– Custom elements (StandardCard, ConfirmDialog, PageGrid, etc.) wrap these primitives to enforce Goldlabel’s design language while staying flexible across cartridges and apps\n"
   },
   {
     "slug": "work/example/docs/index",
@@ -661,7 +661,7 @@
     "description": "Open Source Next App",
     "image": "/png/n64/flickr.png",
     "tags": "Open Source, JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, NextJS, App Router, GitHub",
-    "content": "\n> The app you are using is free to fork, explore, copy, hack, and reuse\n\nOpen Source and Free forever. It offers statically generated sites with Firestore-powered updates and a real admin panel. Built with Next.js App Router and Material UI\n\n[GitHub url=\"https://github.com/goldlabelapps/example/pulse\" label=\"Example Repository\"]\n\n[LinkOut title=\"Example API\" icon=\"api\" url=\"/api\"]\n\n[GitHub url=\"https://github.com/users/goldlabelapps/projects/3\" label=\"Example Kanban Board\"]\n\n[PageGrid pages=\"/work/example/docs, /work/example/tutorial, /work/example/docs/paywall, /work/example/docs/design-system, /work/example/docs/lingua, /work/example/docs/uberedux, /work/example/docs/content-manager\"]\n"
+    "content": "\n> The app you are using is free to fork, explore, copy, hack, and reuse\n\nOpen Source and Free forever. It offers statically generated sites with Firestore-powered updates and a real admin panel. Built with Next.js App Router and Material UI\n\n[GitHub url=\"https://github.com/goldlabelapps/goldlabel-pro/pulse\" label=\"Example Repository\"]\n\n[LinkOut title=\"Example API\" icon=\"api\" url=\"/api\"]\n\n[GitHub url=\"https://github.com/users/goldlabelapps/projects/3\" label=\"Example Kanban Board\"]\n\n[PageGrid pages=\"/work/example/docs, /work/example/tutorial, /work/example/docs/paywall, /work/example/docs/design-system, /work/example/docs/lingua, /work/example/docs/uberedux, /work/example/docs/content-manager\"]\n"
   },
   {
     "slug": "work/example/tutorial/env",
@@ -685,7 +685,7 @@
     "description": "Get started with Goldlabel",
     "image": "/png/3rdParty/github_og.png",
     "tags": [],
-    "content": "\n> Get started with Goldlabel Core Open Source\n\n#### 🚀 Install\n\n1. Clone the repo\n\n```bash\ngit clone https://github.com/goldlabelapps/example.git\ncd example\nyarn install\n```\n\n2. [Setup Environment](/work/example/tutorial/env)\n\nCreate a `.env.local` file in the root directory with this variable. If you enable parts of the app which require other vars, it will let you know\n\n#### 🔑 Start Dev Server\n\n```bash\nyarn dev\n```\n"
+    "content": "\n> Get started with Goldlabel Core Open Source\n\n#### 🚀 Install\n\n1. Clone the repo\n\n```bash\ngit clone https://github.com/goldlabelapps/goldlabel-pro.git\ncd example\nyarn install\n```\n\n2. [Setup Environment](/work/example/tutorial/env)\n\nCreate a `.env.local` file in the root directory with this variable. If you enable parts of the app which require other vars, it will let you know\n\n#### 🔑 Start Dev Server\n\n```bash\nyarn dev\n```\n"
   },
   {
     "slug": "work/experience/aligent",

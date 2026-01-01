@@ -9,3 +9,5 @@ tags: 2026, JavaScript, Next Gen, Next.js, example app, Gen X, goldlabel, AI Pro
 ---
 
 [PageGrid thumbnails="no" pages="/work, /life, /balance"]
+
+In 2026 we're going to stop asking ourselves how can AI help me do a Jigsaw puzzle, instead focussing on learning how to explain to an AI why people do jigsaws. I spose it gives us something to do. Otherwise we'd just go back to picking peanuts out of poo, eating the peanuts and fligning the poo at each other
