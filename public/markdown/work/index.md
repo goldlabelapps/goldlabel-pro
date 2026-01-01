@@ -15,8 +15,6 @@ noImage: true
 - Real deployments from Day One
 - Readable, extensible, Open Source
 
-[LinkOut title="Explore API" icon="api" url="/api"]
-
 [PageGrid thumbnails="no" pages="/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example"]
 
 [LinkOut title="Kanban Board" icon="github" url="https://github.com/users/goldlabelapps/projects/3"]

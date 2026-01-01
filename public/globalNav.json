@@ -1,7 +1,7 @@
 [
   {
     "title": "Home",
-    "description": "What we expect from 2026",
+    "description": "What can we expect from 2026?",
     "slug": "/",
     "order": 1,
     "type": "folder",
@@ -1986,6 +1986,6 @@
       "life",
       "balance"
     ],
-    "excerpt": "We're going to stop asking ourselves how can AI help me do a Jigsaw puzzle, instead focussing on learning how to explain to an AI why people do jigsaws. Jigsaws give us something to do. Otherwise we'd"
+    "excerpt": "Instead of asking how AI will help us do a Jigsaw puzzle, we'll focus on explaining to AI why jigsaws exist. They give us something to do. Otherwise we'd just pick peanuts out of poo, eat the peanuts "
   }
 ]
