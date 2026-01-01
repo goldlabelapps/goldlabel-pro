@@ -1,12 +1,13 @@
 {
-  "version": "52.5.4",
-  "name": "example",
+  "version": "52.5.5",
+  "name": "goldlabel",
   "description": "Always FREE. Always Open Source",
   "repository": {
     "type": "git",
     "url": "https://github.com/goldlabelapps/example"
   },
   "scripts": {
+    "clean": "clear && rm -rf node_modules .next .yarn yarn.lock next-env.d.ts",
     "dev": "clear && rm -rf .next && yarn format && yarn generate && yarn next dev --webpack",
     "generate": "tsx ./gl-core/lib/generate.mjs && yarn indexSearch",
     "build": "yarn next build --webpack",
