@@ -661,7 +661,7 @@
     "description": "Open Source Next App",
     "image": "/png/n64/flickr.png",
     "tags": "Open Source, JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, NextJS, App Router, GitHub",
-    "content": "\n> The app you are using is free to fork, explore, copy, hack, and reuse\n\nOpen Source and Free forever. It offers statically generated sites with Firestore-powered updates and a real admin panel. Built with Next.js App Router and Material UI\n\n[GitHub url=\"https://github.com/goldlabelapps/goldlabel-pro/pulse\" label=\"Example Repository\"]\n\n[LinkOut title=\"Example API\" icon=\"api\" url=\"/api\"]\n\n[GitHub url=\"https://github.com/users/goldlabelapps/projects/3\" label=\"Example Kanban Board\"]\n\n[PageGrid pages=\"/work/example/docs, /work/example/tutorial, /work/example/docs/paywall, /work/example/docs/design-system, /work/example/docs/lingua, /work/example/docs/uberedux, /work/example/docs/content-manager\"]\n"
+    "content": "\n> The app you are using is free to fork, explore, copy, hack, and reuse\n\nOpen Source and Free forever. It offers statically generated sites with Firestore-powered updates and a real admin panel. Built with Next.js App Router and Material UI\n\n[GitHub url=\"https://github.com/goldlabelapps/goldlabel-pro/pulse\" label=\"Repository\"]\n\n[GitHub url=\"https://github.com/users/goldlabelapps/projects/3\" label=\"Kanban Board\"]\n\n[PageGrid pages=\"/work/example/docs, /work/example/tutorial, /work/example/docs/paywall, /work/example/docs/design-system, /work/example/docs/lingua, /work/example/docs/uberedux, /work/example/docs/content-manager\"]\n"
   },
   {
     "slug": "work/example/tutorial/env",
@@ -749,7 +749,7 @@
     "description": "20+ Years of coding",
     "image": "https://live.staticflickr.com/65535/55016266502_3c145fbbcd_b.jpg",
     "tags": "Professional, JavaScript, Vanilla JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, Gatsby, NextJS, Headless CMS",
-    "content": "\n> Goldlabel builds and ships modern web apps for clients who need real results fast\n\n- _Small_ team. _Big_ output\n- Real deployments from Day One\n- Readable, extensible, Open Source\n\n[LinkOut title=\"Explore API\" icon=\"api\" url=\"/api\"]\n\n[PageGrid thumbnails=\"no\" pages=\"/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example\"]\n\n[LinkOut title=\"Kanban Board\" icon=\"github\" url=\"https://github.com/users/goldlabelapps/projects/3\"]\n"
+    "content": "\n> Goldlabel builds and ships modern web apps for clients who need real results fast\n\n- _Small_ team. _Big_ output\n- Real deployments from Day One\n- Readable, extensible, Open Source\n\n[PageGrid thumbnails=\"no\" pages=\"/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example\"]\n\n[LinkOut title=\"Kanban Board\" icon=\"github\" url=\"https://github.com/users/goldlabelapps/projects/3\"]\n"
   },
   {
     "slug": "work/skills/ai/aki/index",
