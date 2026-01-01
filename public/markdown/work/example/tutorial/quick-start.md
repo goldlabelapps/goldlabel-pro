@@ -15,7 +15,7 @@ noImage: true
 1. Clone the repo
 
 ```bash
-git clone https://github.com/goldlabelapps/example.git
+git clone https://github.com/goldlabelapps/goldlabel-pro.git
 cd example
 yarn install
 ```

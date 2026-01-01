@@ -4,7 +4,7 @@ title: Life
 description: Generation X at 50
 slug: /life
 icon: life
-image: https://live.staticflickr.com/65535/54929859240_2873323696_b.jpg
+image: https://live.staticflickr.com/65535/55017142956_042bea653d_b.jpg
 ---
 
 [PageGrid thumbnails="no" pages=" /life/books, /life/food, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing"]

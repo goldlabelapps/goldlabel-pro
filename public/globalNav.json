@@ -1,7 +1,7 @@
 [
   {
     "title": "Home",
-    "description": "New for 2026",
+    "description": "What can we expect from 2026?",
     "slug": "/",
     "order": 1,
     "type": "folder",
@@ -1131,7 +1131,7 @@
           }
         ],
         "icon": "work",
-        "image": "https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg",
+        "image": "https://live.staticflickr.com/65535/55016266502_3c145fbbcd_b.jpg",
         "tags": [
           "Professional",
           "JavaScript",
@@ -1688,7 +1688,7 @@
           }
         ],
         "icon": "life",
-        "image": "https://live.staticflickr.com/65535/54929859240_2873323696_b.jpg",
+        "image": "https://live.staticflickr.com/65535/55017142956_042bea653d_b.jpg",
         "excerpt": "[PageGrid thumbnails=\"no\" pages=\" /life/books, /life/food, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing\"]\n\n ⚠️ Cultural reference: Generation X, Tales for an Accelerated Culture is a"
       },
       {
@@ -1951,12 +1951,12 @@
           }
         ],
         "icon": "balance",
-        "image": "https://live.staticflickr.com/65535/54933893533_4b3dbc97d6_b.jpg",
+        "image": "https://live.staticflickr.com/65535/55017142956_042bea653d_b.jpg",
         "excerpt": "If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are \n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]"
       }
     ],
     "icon": "home",
-    "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55016269007_092c55e1ba_b.jpg",
     "tags": [
       "2026",
       "JavaScript",
@@ -1986,6 +1986,6 @@
       "life",
       "balance"
     ],
-    "excerpt": "[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]"
+    "excerpt": "Instead of asking how AI will help us do a Jigsaw puzzle, we'll focus on explaining to AI why jigsaws exist. They give us something to do. Otherwise we'd just pick peanuts out of poo, eat the peanuts "
   }
 ]

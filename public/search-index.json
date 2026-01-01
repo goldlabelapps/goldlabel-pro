@@ -83,7 +83,7 @@
     "slug": "balance/index",
     "title": "Balance",
     "description": "Were you the kind of kid who liked Lego?",
-    "image": "https://live.staticflickr.com/65535/54933893533_4b3dbc97d6_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55017142956_042bea653d_b.jpg",
     "tags": [],
     "content": "\n> If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are [Generation X](/balance/books/douglas-coupland/generation-x)\n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]\n"
   },
@@ -210,10 +210,10 @@
   {
     "slug": "index",
     "title": "Home",
-    "description": "New for 2026",
-    "image": "https://live.staticflickr.com/65535/54933586601_f64729ab1f_b.jpg",
+    "description": "What can we expect from 2026?",
+    "image": "https://live.staticflickr.com/65535/55016269007_092c55e1ba_b.jpg",
     "tags": "2026, JavaScript, Next Gen, Next.js, example app, Gen X, goldlabel, AI Prompt Engineering, ChatGPT, OpenAI, Singularity, Frontend, Vanilla JS, TypeScript, React, Material UI, MUI, Flash, SSR, SSG, Node, NextJS, Headless CMS, secure, work, life, balance",
-    "content": "\n[PageGrid thumbnails=\"no\" pages=\"/work, /life, /balance\"]\n"
+    "content": "\nInstead of asking how AI will help us do a Jigsaw puzzle, we'll focus on explaining to AI why jigsaws exist. They give us something to do. Otherwise we'd just pick peanuts out of poo, eat the peanuts and fling the poo at each other\n\n[PageGrid pages=\"/work, /life, /balance\"]\n"
   },
   {
     "slug": "life/aquaponics/index",
@@ -507,7 +507,7 @@
     "slug": "life/index",
     "title": "Life",
     "description": "Generation X at 50",
-    "image": "https://live.staticflickr.com/65535/54929859240_2873323696_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55017142956_042bea653d_b.jpg",
     "tags": [],
     "content": "\n[PageGrid thumbnails=\"no\" pages=\" /life/books, /life/food, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing\"]\n\n> ⚠️ Cultural reference: Generation X, Tales for an Accelerated Culture is a 1991 novel written by Canadian author Douglas Coupland\n\nI work remotely. I cook, eat, ride motorbikes and scuba dive. Skiing used to be my favourite, but I'm a bit old now. I lost toes and broke a hip, so at my age maybe it's time to take up sailing. We are [Generation X](/balance/writers/generation-x)\n"
   },
@@ -621,7 +621,7 @@
     "description": "Based on Material UI",
     "image": "/png/n64/test.png",
     "tags": [],
-    "content": "\n> Material UI is a React component library that provides a consistent design system, layout primitives, and ready-made UI components\n\n[GitHub url=\"https://github.com/goldlabelapps/example/tree/master/gl-core/cartridges/Theme\" label=\"Theme Cartridge\"]\n\n#### Foundation for all shared UI\n\n– MUI’s ThemeProvider establishes colours, typography, spacing and breakpoints\n\n– Components like Card, Grid, Box, Button, Dialog, Typography form the structural building blocks of all shared layouts\n\n– Custom elements (StandardCard, ConfirmDialog, PageGrid, etc.) wrap these primitives to enforce Goldlabel’s design language while staying flexible across cartridges and apps\n"
+    "content": "\n> Material UI is a React component library that provides a consistent design system, layout primitives, and ready-made UI components\n\n[GitHub url=\"https://github.com/goldlabelapps/example/tree/master/gl-core/cartridges/Theme\" label=\"Design System Cartridge\"]\n\n#### Foundation for all shared UI\n\n– MUI’s ThemeProvider establishes colours, typography, spacing and breakpoints\n\n– Components like Card, Grid, Box, Button, Dialog, Typography form the structural building blocks of all shared layouts\n\n– Custom elements (StandardCard, ConfirmDialog, PageGrid, etc.) wrap these primitives to enforce Goldlabel’s design language while staying flexible across cartridges and apps\n"
   },
   {
     "slug": "work/example/docs/index",
@@ -661,7 +661,7 @@
     "description": "Open Source Next App",
     "image": "/png/n64/flickr.png",
     "tags": "Open Source, JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, NextJS, App Router, GitHub",
-    "content": "\n> The app you are using is free to fork, explore, copy, hack, and reuse\n\nOpen Source and Free forever. It offers statically generated sites with Firestore-powered updates and a real admin panel. Built with Next.js App Router and Material UI\n\n[GitHub url=\"https://github.com/goldlabelapps/example/pulse\" label=\"Example Repository\"]\n\n[LinkOut title=\"Example API\" icon=\"api\" url=\"/api\"]\n\n[GitHub url=\"https://github.com/users/goldlabelapps/projects/3\" label=\"Example Kanban Board\"]\n\n[PageGrid pages=\"/work/example/docs, /work/example/tutorial, /work/example/docs/paywall, /work/example/docs/design-system, /work/example/docs/lingua, /work/example/docs/uberedux, /work/example/docs/content-manager\"]\n"
+    "content": "\n> The app you are using is free to fork, explore, copy, hack, and reuse\n\nOpen Source and Free forever. It offers statically generated sites with Firestore-powered updates and a real admin panel. Built with Next.js App Router and Material UI\n\n[GitHub url=\"https://github.com/goldlabelapps/goldlabel-pro/pulse\" label=\"Example Repository\"]\n\n[LinkOut title=\"Example API\" icon=\"api\" url=\"/api\"]\n\n[GitHub url=\"https://github.com/users/goldlabelapps/projects/3\" label=\"Example Kanban Board\"]\n\n[PageGrid pages=\"/work/example/docs, /work/example/tutorial, /work/example/docs/paywall, /work/example/docs/design-system, /work/example/docs/lingua, /work/example/docs/uberedux, /work/example/docs/content-manager\"]\n"
   },
   {
     "slug": "work/example/tutorial/env",
@@ -685,7 +685,7 @@
     "description": "Get started with Goldlabel",
     "image": "/png/3rdParty/github_og.png",
     "tags": [],
-    "content": "\n> Get started with Goldlabel Core Open Source\n\n#### 🚀 Install\n\n1. Clone the repo\n\n```bash\ngit clone https://github.com/goldlabelapps/example.git\ncd example\nyarn install\n```\n\n2. [Setup Environment](/work/example/tutorial/env)\n\nCreate a `.env.local` file in the root directory with this variable. If you enable parts of the app which require other vars, it will let you know\n\n#### 🔑 Start Dev Server\n\n```bash\nyarn dev\n```\n"
+    "content": "\n> Get started with Goldlabel Core Open Source\n\n#### 🚀 Install\n\n1. Clone the repo\n\n```bash\ngit clone https://github.com/goldlabelapps/goldlabel-pro.git\ncd example\nyarn install\n```\n\n2. [Setup Environment](/work/example/tutorial/env)\n\nCreate a `.env.local` file in the root directory with this variable. If you enable parts of the app which require other vars, it will let you know\n\n#### 🔑 Start Dev Server\n\n```bash\nyarn dev\n```\n"
   },
   {
     "slug": "work/experience/aligent",
@@ -747,7 +747,7 @@
     "slug": "work/index",
     "title": "Work",
     "description": "20+ Years of coding",
-    "image": "https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55016266502_3c145fbbcd_b.jpg",
     "tags": "Professional, JavaScript, Vanilla JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, Gatsby, NextJS, Headless CMS",
     "content": "\n> Goldlabel builds and ships modern web apps for clients who need real results fast\n\n- _Small_ team. _Big_ output\n- Real deployments from Day One\n- Readable, extensible, Open Source\n\n[LinkOut title=\"Explore API\" icon=\"api\" url=\"/api\"]\n\n[PageGrid thumbnails=\"no\" pages=\"/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example\"]\n\n[LinkOut title=\"Kanban Board\" icon=\"github\" url=\"https://github.com/users/goldlabelapps/projects/3\"]\n"
   },

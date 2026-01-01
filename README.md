@@ -128,17 +128,17 @@ The framework uses a modular cartridge architecture for extensibility:
 
 ## 🛠️ Available Scripts
 
-| Script | Description |
-|--------|-------------|
-| `yarn dev` | Start development server with auto-reload |
-| `yarn build` | Build production bundle |
-| `yarn start` | Start production server |
-| `yarn generate` | Generate navigation, sitemap, and tags |
-| `yarn indexSearch` | Build search index |
-| `yarn lint` | Run ESLint |
-| `yarn format` | Format code with Prettier |
-| `yarn test` | Run linter and format checks |
-| `yarn clean` | Clean build artifacts and dependencies |
+| Script             | Description                               |
+| ------------------ | ----------------------------------------- |
+| `yarn dev`         | Start development server with auto-reload |
+| `yarn build`       | Build production bundle                   |
+| `yarn start`       | Start production server                   |
+| `yarn generate`    | Generate navigation, sitemap, and tags    |
+| `yarn indexSearch` | Build search index                        |
+| `yarn lint`        | Run ESLint                                |
+| `yarn format`      | Format code with Prettier                 |
+| `yarn test`        | Run linter and format checks              |
+| `yarn clean`       | Clean build artifacts and dependencies    |
 
 ## 🔧 Configuration
 

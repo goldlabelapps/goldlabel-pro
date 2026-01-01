@@ -4,7 +4,7 @@ title: Work
 description: 20+ Years of coding
 slug: /work
 icon: work
-image: https://live.staticflickr.com/65535/54940372447_3ca7baef00_b.jpg
+image: https://live.staticflickr.com/65535/55016266502_3c145fbbcd_b.jpg
 tags: Professional, JavaScript, Vanilla JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, Gatsby, NextJS, Headless CMS
 noImage: true
 ---
@@ -14,8 +14,6 @@ noImage: true
 - _Small_ team. _Big_ output
 - Real deployments from Day One
 - Readable, extensible, Open Source
-
-[LinkOut title="Explore API" icon="api" url="/api"]
 
 [PageGrid thumbnails="no" pages="/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example"]
 
