@@ -86,7 +86,7 @@ function flattenNav(nav: any[], acc: TFlatItem[] = []) {
   return acc;
 }
 
-export default function Search({ onTrigger = () => { } }: TSearch) {
+export default function Search({ onTrigger = () => {} }: TSearch) {
   const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
   const [highlightIndex, setHighlightIndex] = useState(-1);

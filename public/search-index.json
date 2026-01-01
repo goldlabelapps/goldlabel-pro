@@ -83,7 +83,7 @@
     "slug": "balance/index",
     "title": "Balance",
     "description": "Were you the kind of kid who liked Lego?",
-    "image": "https://live.staticflickr.com/65535/55017142956_042bea653d_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55017757554_8d463c2b1a_b.jpg",
     "tags": [],
     "content": "\n> If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are [Generation X](/balance/books/douglas-coupland/generation-x)\n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]\n"
   },
@@ -507,9 +507,9 @@
     "slug": "life/index",
     "title": "Life",
     "description": "Generation X at 50",
-    "image": "https://live.staticflickr.com/65535/55017142956_042bea653d_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55016604557_0c679df5b8_b.jpg",
     "tags": [],
-    "content": "\n[PageGrid thumbnails=\"no\" pages=\" /life/books, /life/food, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing\"]\n\n> ⚠️ Cultural reference: Generation X, Tales for an Accelerated Culture is a 1991 novel written by Canadian author Douglas Coupland\n\nI work remotely. I cook, eat, ride motorbikes and scuba dive. Skiing used to be my favourite, but I'm a bit old now. I lost toes and broke a hip, so at my age maybe it's time to take up sailing. We are [Generation X](/balance/writers/generation-x)\n"
+    "content": "\n> ⚠️ Cultural reference: Generation X, Tales for an Accelerated Culture is a 1991 novel written by Canadian author Douglas Coupland\n\n[PageGrid thumbnails=\"no\" pages=\"/life/books, /life/food, /life/motorbikes, /life/aquaponics, /life/diving, /life/skiing\"]\n\nI work remotely. I cook, eat, ride motorbikes and scuba dive. Skiing used to be my favourite, but I'm a bit old now. I lost toes and broke a hip, so at my age maybe it's time to take up sailing. We are [Generation X](/life/books/douglas-coupland/generation-x)\n"
   },
   {
     "slug": "life/motorbikes/braap_cafe_racer",
@@ -747,7 +747,7 @@
     "slug": "work/index",
     "title": "Work",
     "description": "20+ Years of coding",
-    "image": "https://live.staticflickr.com/65535/55016266502_3c145fbbcd_b.jpg",
+    "image": "https://live.staticflickr.com/65535/55017672828_1753510293_b.jpg",
     "tags": "Professional, JavaScript, Vanilla JavaScript, TypeScript, React, Material UI, Flash, Server Side JavaScript, Node, Gatsby, NextJS, Headless CMS",
     "content": "\n> Goldlabel builds and ships modern web apps for clients who need real results fast\n\n- _Small_ team. _Big_ output\n- Real deployments from Day One\n- Readable, extensible, Open Source\n\n[PageGrid thumbnails=\"no\" pages=\"/work/about/hyperlink-resume, /work/about, /work/skills, /work/experience, /work/example\"]\n\n[LinkOut title=\"Kanban Board\" icon=\"github\" url=\"https://github.com/users/goldlabelapps/projects/3\"]\n"
   },
