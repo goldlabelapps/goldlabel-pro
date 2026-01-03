@@ -1,14 +1,14 @@
 {
-  "app": "Goldlabel Apps Ltd",
+  "app": "Goldlabel pr0",
   "url": "https://goldlabel.pro",
   "themes": {
     "light": {
       "mode": "light",
-      "primary": "#126970",
-      "secondary": "#22939C",
+      "primary": "#C09F52",
+      "secondary": "#C09F52",
       "background": "#faffff",
-      "paper": "#E9F3F4",
-      "border": "#15757D",
+      "paper": "#F7F6F3",
+      "border": "#DECB9C",
       "text": "#3B3A3A"
     },
     "dark": {
