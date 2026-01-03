@@ -3891,7 +3891,7 @@
     ]
   },
   "food": {
-    "count": 3,
+    "count": 4,
     "pages": [
       {
         "title": "Air Fried Peppers",
@@ -3906,6 +3906,18 @@
           "recipes",
           "air fryer",
           "peppers"
+        ]
+      },
+      {
+        "title": "Low Points Lunch",
+        "slug": "/life/food/low-point-lunch",
+        "excerpt": "Bällchen comes from Ball (ball) + chen (diminutive), meaning “little ball”.  \n Commonly used for small meatballs, dumplings, or other bitesized rounds.\n\nLight, lean turkey meatballs designed to keep p",
+        "icon": "food",
+        "image": "/jpg/wei-zang/wei-zangs-food.jpg",
+        "description": "Low Point Turkey Bällchen",
+        "tags": [
+          "food",
+          "turkey"
         ]
       },
       {
@@ -4049,6 +4061,23 @@
           "recipes",
           "air fryer",
           "peppers"
+        ]
+      }
+    ]
+  },
+  "turkey": {
+    "count": 1,
+    "pages": [
+      {
+        "title": "Low Points Lunch",
+        "slug": "/life/food/low-point-lunch",
+        "excerpt": "Bällchen comes from Ball (ball) + chen (diminutive), meaning “little ball”.  \n Commonly used for small meatballs, dumplings, or other bitesized rounds.\n\nLight, lean turkey meatballs designed to keep p",
+        "icon": "food",
+        "image": "/jpg/wei-zang/wei-zangs-food.jpg",
+        "description": "Low Point Turkey Bällchen",
+        "tags": [
+          "food",
+          "turkey"
         ]
       }
     ]
