@@ -7,8 +7,8 @@
       "primary": "#C09F52",
       "secondary": "#C09F52",
       "background": "#faffff",
-      "paper": "#faffff",
-      "border": "#C09F52",
+      "paper": "#F7F6F3",
+      "border": "#DECB9C",
       "text": "#3B3A3A"
     },
     "dark": {

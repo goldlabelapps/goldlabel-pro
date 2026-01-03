@@ -1568,10 +1568,10 @@
               },
               {
                 "title": "Low Points Lunch",
-                "slug": "/life/food/low-point-lunch",
+                "slug": "/life/food/low-points-lunch",
                 "order": 333,
                 "icon": "food",
-                "image": "/jpg/wei-zang/wei-zangs-food.jpg",
+                "image": "https://live.staticflickr.com/65535/55021434005_3cb12dc491_b.jpg",
                 "type": "file",
                 "tags": [
                   "food",
@@ -1605,7 +1605,7 @@
             ],
             "icon": "food",
             "image": "https://live.staticflickr.com/65535/55021434005_3cb12dc491_b.jpg",
-            "excerpt": "You want a recipe? The interweb's full of them. This is how I cook\n\n[PageGrid pages=\"/life/food/lowpointlunch, /life/food/tiramisu, /life/food/nasigoreng, /life/food/airfriedpeppers, /life/food/banana"
+            "excerpt": "You want a recipe? The interweb's full of them. This is how I cook\n\n[PageGrid pages=\"/life/food/lowpointslunch, /life/food/tiramisu, /life/food/nasigoreng, /life/food/airfriedpeppers, /life/food/banan"
           },
           {
             "title": "Aquaponics",
@@ -1968,7 +1968,7 @@
         "excerpt": "If you were the kind of kid who liked Lego then we probably have a lot more in common than just that. We are \n\n[PageGrid thumbnails=\"no\" pages=\"/balance/words, /balance/film, /balance/pictures\"]"
       }
     ],
-    "icon": "goldlabel",
+    "icon": "pingpong",
     "image": "https://live.staticflickr.com/65535/55016269007_092c55e1ba_b.jpg",
     "tags": [
       "2026",
