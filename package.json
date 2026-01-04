@@ -8,7 +8,7 @@
   },
   "scripts": {
     "clean": "clear && rm -rf node_modules .next .yarn yarn.lock next-env.d.ts && l",
-    "dev": "clear && rm -rf .next && yarn format && yarn generate && yarn next dev --webpack",
+    "dev": "clear && lsof -ti:3000 | xargs kill -9 2>/dev/null || true && rm -rf .next && yarn format && yarn generate && yarn next dev --webpack",
     "generate": "tsx ./gl-core/lib/generate.mjs && yarn indexSearch",
     "build": "yarn next build --webpack",
     "indexSearch": "node ./gl-core/lib/buildSearchIndex.mjs",

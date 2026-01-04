@@ -20,7 +20,7 @@ export default async function RootLayout({
   }
 
   let shortcutIcon = '/svg/favicon.svg';
-  let appleTouchIcon = '/png/favicon.png';
+  let appleTouchIcon = '/png/apple-touch-icon.png';
 
   return (
     <html lang="en">
