@@ -1,10 +1,10 @@
 {
-  "short_name": "Goldlabel",
-  "name": "Goldlabel",
-  "theme_color": "#faffff",
-  "background_color": "#faffff",
+  "short_name": "pr0",
+  "name": "pr0",
+  "theme_color": "#C09F52",
+  "background_color": "#C09F52",
   "display": "fullscreen",
-  "orientation": "portrait",
+  "orientation": "any",
   "scope": "/",
   "start_url": "/",
   "splash_pages": null,
@@ -12,7 +12,12 @@
     {
       "src": "/png/favicon.png",
       "type": "image/png",
-      "sizes": "180x180",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/svg/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
       "purpose": "any maskable"
     }
   ]
