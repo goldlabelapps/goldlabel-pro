@@ -19,14 +19,14 @@ export default async function RootLayout({
     console.error('Failed to load globalNav.json:', err);
   }
 
-  let shortcutIcon = '/svg/favicon.svg';
-  let appleTouchIcon = '/png/apple-touch-icon.png';
+  let shortcutIcon = '/svg/maskable.svg';
+  let appleTouchIcon = '/svg/maskable.svg';
 
   return (
     <html lang="en">
       <head>
         <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#faffff" />
+        <meta name="theme-color" content="#C09F52" />
         <link rel="icon" href={shortcutIcon} />
         <link rel="shortcut icon" href={shortcutIcon} type="image/x-icon" />
         <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
